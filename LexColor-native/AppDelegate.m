@@ -7,12 +7,137 @@
 //
 
 #import "AppDelegate.h"
+#import "Product.h"
+#import "ProductsViewController.h"
 
 @implementation AppDelegate
+{
+    NSMutableArray *_series79x;
+    NSMutableArray *_series74x;
+    NSMutableArray *_series51x;
+    NSMutableArray *_series41x;
+    NSMutableArray *_series31x;
+    NSMutableArray *_series92x;
+    NSMutableArray *_series95x;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    /*
+     *product list
+     */
+    
+    _series79x = [NSMutableArray array];
+    _series74x = [NSMutableArray array];
+    _series51x = [NSMutableArray array];
+    _series41x = [NSMutableArray array];
+    _series31x = [NSMutableArray array];
+    _series92x = [NSMutableArray array];
+    _series95x = [NSMutableArray array];
+    
+    Product *product = [[Product alloc] init];
+    product.name = @"X792 Range of Products";
+    product.desc = @"Touch Screen Multifunction Printer";
+    product.image = @"X792dePIC.png";
+    product.descDetails = @"The huge 10.2-inch color touchscreen makes it simple to use all the powerful features of the X792 Series. Get professional quality results with built-in duplexing, optional finishing and brilliant printing.";
+    product.navTitle = @"X792 Products";
+    product.headerTitle = @"Lexmark X792 Products";
+    product.productType = enum_producttype_X792;
+    product.hasMachineOption = YES;
+    [_series79x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"C792 Range of Products";
+    product.desc = @"Touch Screen Color Printer";
+    [_series79x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"X746 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series74x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"X748 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series74x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"C746 Range of Products";
+    product.desc = @"Color Printer";
+    [_series74x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"C748 Range of Products";
+    product.desc = @"Touch Screen Color Printer";
+    [_series74x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"CX510 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series51x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"CS510 Range of Products";
+    product.desc = @"Touch Screen Color Printer";
+    [_series51x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"CX410 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series41x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"CS410 Range of Products";
+    product.desc = @"Touch Screen Color Printer";
+    [_series41x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"CX310 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series31x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"CS310 Range of Products";
+    product.desc = @"Touch Screen Color Printer";
+    [_series31x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"X925 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series92x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"C925 Range of Products";
+    product.desc = @"Touch Screen Color Printer";
+    [_series92x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"X950 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series95x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"X954 Range of Products";
+    product.desc = @"Touch Screen Multifunction Device";
+    [_series95x addObject:product];
+    
+    product = [[Product alloc] init];
+    product.name = @"C950 Range of Products";
+    product.desc = @"Touch Screen Color Printer";
+    [_series92x addObject:product];
+    
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UINavigationController *navigationController = [tabBarController viewControllers][0];
+    ProductsViewController *productsViewController = [navigationController viewControllers][0];
+    productsViewController.series79x = _series79x;
+    productsViewController.series74x = _series74x;
+    productsViewController.series51x = _series51x;
+    productsViewController.series41x = _series41x;
+    productsViewController.series31x = _series31x;
+    productsViewController.series92x = _series92x;
+    productsViewController.series95x = _series95x;
+        
     return YES;
 }
 							

@@ -1,0 +1,384 @@
+TLexColor-native
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.pch LexColor-native/LexColor-native-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o /Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o /Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o /Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native normal i386
+cCompileStoryboard /Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPad.storyboard
+cCompileStoryboard /Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard
+cCopyStringsFile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/en.lproj/InfoPlist.strings LexColor-native/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app /Users/fcantay/Desktop/LexColor-native/LexColor-native/Images.xcassets
+cProcessInfoPlistFile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Info.plist /Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Info.plist
+cGenerateDSYMFile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app.dSYM /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native
+cTouch /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000052F840C500000000000003B4
+t1392001221
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531149D9000000000000019E
+t1393641945
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005375C8900000000000446820
+t1400227984
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005375C894000000000088D8C0
+t1400227988
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005375C8A10000000001F1DE10
+t1400228001
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005375C9220000000000000ADC
+t1400228130
+s2780
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m
+c00000000537C12B200000000000007DB
+t1400640178
+s2011
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPad.storyboard
+c00000000537C12B20000000000000713
+t1400640178
+s1811
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard
+c00000000537C412400000000000020A7
+t1400652068
+s8359
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/Images.xcassets
+c00000000537C12B20000000000000088
+t1400640178
+s136
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Info.plist
+c00000000537C12B2000000000000062B
+t1400640178
+s1579
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Prefix.pch
+c00000000537C12B20000000000000158
+t1400640178
+s344
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m
+c00000000537C12B200000000000001F1
+t1400640178
+s497
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/en.lproj/InfoPlist.strings
+c00000000537C12B2000000000000002D
+t1400640178
+s45
+
+N/Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m
+c00000000537C12B20000000000000155
+t1400640178
+s341
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app
+t1400652074
+s306
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app.dSYM
+t2
+s0
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Base.lproj/Main_iPad.storyboardc
+t1400652072
+s170
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Base.lproj/Main_iPhone.storyboardc
+t1400652072
+s204
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Info.plist
+t1400652074
+s1300
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native
+t1400652071
+s16948
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/PkgInfo
+t1400652074
+s8
+
+N/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/en.lproj/InfoPlist.strings
+t1400652074
+s42
+
+N/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o
+t1400652071
+s62392
+
+N/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/LexColor-native.LinkFileList
+c00000000537C412400000000000001AF
+t1400652068
+s431
+
+N/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o
+t1400652071
+s38984
+
+N/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o
+t1400652071
+s3552
+
+N/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/assetcatalog_dependencies.txt
+t1400652074
+s374
+
+N/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/assetcatalog_generated_info.plist
+t1400652074
+s525
+
+N/var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.pch
+t1400652070
+s115928
+
+CBuild AST from /Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m
+r0
+
+CBuild AST from /Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m
+r0
+
+CBuild AST from /Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies33532ea4782cb941^ae9d50a4782cb941^---0#1#1#--18"Check dependencies36"82420D3C-A25F-4BC3-A204-1484132E04F9-
+
+CCompileAssetCatalog /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app /Users/fcantay/Desktop/LexColor-native/LexColor-native/Images.xcassets
+s422344874.062183
+e422344874.824010
+r1
+xCompileAssetCatalog
+x/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app
+x/Users/fcantay/Desktop/LexColor-native/LexColor-native/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LaunchImage-700-568h@2x.png
+o/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Assets.car
+o/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CompileAssetCatalog build/Debug-iphonesimulator/LexColor-native.app LexColor-native/Images.xcassets99"CompileAssetCatalog build/Debug-iphonesimulator/LexColor-native.app LexColor-native/Images.xcassetsde0310aa782cb941^faf2d2aa782cb941^-402"/* com.apple.actool.compilation-results *//Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LaunchImage-700-568h@2x.png/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Assets.car/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@78"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/Images.xcassets/0000000000000000^1177"CompileAssetCatalog build/Debug-iphonesimulator/LexColor-native.app LexColor-native/Images.xcassets    cd /Users/fcantay/Desktop/LexColor-native    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app /Users/fcantay/Desktop/LexColor-native/LexColor-native/Images.xcassets36"43DB5A17-F85B-4F33-B451-6B9043DE85C1-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CCompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o /Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422344870.868984
+e422344871.103189
+r1
+xCompileC
+xbuild/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o
+x/Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m
+d/Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m212"CompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o LexColor-native/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1c96dea6782cb941^88811aa7782cb941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m0000000000000000^3759"CompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o LexColor-native/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fcantay/Desktop/LexColor-native    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fcantay/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-generated-files.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-own-target-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-all-target-headers.hmap -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-project-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources/i386 -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources -F/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator -include /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch -MMD -MT dependencies -MF /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.dia -c /Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.m -o /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o36"970DB4FF-6BE4-471E-AA1A-6CAD62C03A94-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CCompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o /Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422344870.868389
+e422344871.103677
+r1
+xCompileC
+xbuild/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o
+x/Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m
+d/Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m218"CompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o LexColor-native/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1974dea6782cb941^64571aa7782cb941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m0000000000000000^3777"CompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o LexColor-native/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fcantay/Desktop/LexColor-native    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fcantay/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-generated-files.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-own-target-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-all-target-headers.hmap -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-project-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources/i386 -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources -F/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator -include /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch -MMD -MT dependencies -MF /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.dia -c /Users/fcantay/Desktop/LexColor-native/LexColor-native/ViewController.m -o /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o36"F79A57EB-7F3E-47C9-A966-A18717F85858-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CCompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o /Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422344871.103896
+e422344871.161530
+r1
+xCompileC
+xbuild/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o
+x/Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m
+d/Users/fcantay/Desktop/LexColor-native/LexColor-native/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m198"CompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o LexColor-native/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler56bb1aa7782cb941^797629a7782cb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m0000000000000000^3717"CompileC build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o LexColor-native/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fcantay/Desktop/LexColor-native    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fcantay/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-generated-files.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-own-target-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-all-target-headers.hmap -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-project-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources/i386 -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources -F/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator -include /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch -MMD -MT dependencies -MF /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.dia -c /Users/fcantay/Desktop/LexColor-native/LexColor-native/main.m -o /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o36"F1317073-49DD-4EFA-B340-238E6B89C833-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CCompileStoryboard /Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPad.storyboard
+s422344871.450909
+e422344872.132691
+r1
+xCompileStoryboard
+x/Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard LexColor-native/Base.lproj/Main_iPad.storyboard65"CompileStoryboard LexColor-native/Base.lproj/Main_iPad.storyboarde48673a7782cb941^651d22a8782cb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPad.storyboard0000000000000000^869"CompileStoryboard LexColor-native/Base.lproj/Main_iPad.storyboard    cd /Users/fcantay/Desktop/LexColor-native    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Base.lproj/Main_iPad.storyboardc /Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPad.storyboard36"6B04F8DD-7B27-4D64-A921-21CB6D4208CC-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CCompileStoryboard /Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard
+s422344872.132968
+e422344874.055220
+r1
+xCompileStoryboard
+x/Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard
+o/* com.apple.ibtool.document.warnings */
+o/Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard:vXZ-lx-hvc: warning: Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:. [9]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CompileStoryboard LexColor-native/Base.lproj/Main_iPhone.storyboard67"CompileStoryboard LexColor-native/Base.lproj/Main_iPhone.storyboarda62922a8782cb941^10250eaa782cb941^-298"/* com.apple.ibtool.document.warnings *//Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard:vXZ-lx-hvc: warning: Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:.1(21%IDEActivityLogMessage2@146"Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:.-422344874#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@95"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@95"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard0000000000000000^875"CompileStoryboard LexColor-native/Base.lproj/Main_iPhone.storyboard    cd /Users/fcantay/Desktop/LexColor-native    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Base.lproj/Main_iPhone.storyboardc /Users/fcantay/Desktop/LexColor-native/LexColor-native/Base.lproj/Main_iPhone.storyboard36"F0D7EE08-37A6-457B-931F-330EA92B4DEB-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CCopyStringsFile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/en.lproj/InfoPlist.strings LexColor-native/en.lproj/InfoPlist.strings
+s422344874.055558
+e422344874.061950
+r1
+xCopyStringsFile
+x/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/en.lproj/InfoPlist.strings
+xLexColor-native/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy LexColor-native/en.lproj/InfoPlist.strings133"CopyStringsFile build/Debug-iphonesimulator/LexColor-native.app/en.lproj/InfoPlist.strings LexColor-native/en.lproj/InfoPlist.strings8b520eaa782cb941^bb0b10aa782cb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/en.lproj/InfoPlist.strings0000000000000000^607"CopyStringsFile build/Debug-iphonesimulator/LexColor-native.app/en.lproj/InfoPlist.strings LexColor-native/en.lproj/InfoPlist.strings    cd /Users/fcantay/Desktop/LexColor-native    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/en.lproj -- LexColor-native/en.lproj/InfoPlist.strings36"EB96A6A8-CAB2-40A9-9CF4-2B880EFEA41B-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CGenerateDSYMFile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app.dSYM /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native
+s422344874.828549
+e422344874.880725
+r1
+xGenerateDSYMFile
+x/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app.dSYM
+x/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app.dSYM133"GenerateDSYMFile build/Debug-iphonesimulator/LexColor-native.app.dSYM build/Debug-iphonesimulator/LexColor-native.app/LexColor-nativee02dd4aa782cb941^6287e1aa782cb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app.dSYM00347c8bdeffdf42^673"GenerateDSYMFile build/Debug-iphonesimulator/LexColor-native.app.dSYM build/Debug-iphonesimulator/LexColor-native.app/LexColor-native    cd /Users/fcantay/Desktop/LexColor-native    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native -o /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app.dSYM36"4DE338DD-B4E8-4161-83AF-EFF6DD048DD4-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CLd /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native normal i386
+s422344871.163317
+e422344871.449586
+r1
+xLd
+x/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native
+xnormal
+xi386
+d/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/LexColor-native.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/ViewController.o
+d/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/AppDelegate.o
+d/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native78"Ld build/Debug-iphonesimulator/LexColor-native.app/LexColor-native normal i386bcea29a7782cb941^721973a7782cb941^---0#0#1#--1405"Ld build/Debug-iphonesimulator/LexColor-native.app/LexColor-native normal i386    cd /Users/fcantay/Desktop/LexColor-native    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator -F/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator -filelist /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/LexColor-native.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/Objects-normal/i386/LexColor-native_dependency_info.dat -o /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/LexColor-native36"2D9F7D37-DC77-4DA6-891A-640C345BE550-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CProcessInfoPlistFile /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Info.plist /Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Info.plist
+s422344874.824977
+e422344874.827927
+r1
+xProcessInfoPlistFile
+x/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Info.plist
+x/Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Process /Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Info.plist122"ProcessInfoPlistFile build/Debug-iphonesimulator/LexColor-native.app/Info.plist LexColor-native/LexColor-native-Info.plistb64bd3aa782cb941^8cf3d3aa782cb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Info.plist0000000000000000^913"ProcessInfoPlistFile build/Debug-iphonesimulator/LexColor-native.app/Info.plist LexColor-native/LexColor-native-Info.plist    cd /Users/fcantay/Desktop/LexColor-native    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Info.plist -genpkginfo /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/assetcatalog_generated_info.plist -o /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app/Info.plist36"5C6FB285-19A3-4C76-800B-3E5191F462AC-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CProcessPCH /Users/fcantay/Library/Developer/Xcode/DerivedData/LexColor-native-gpwqwslcyytcfkckwhvfmvzwvdib/Index/PrecompiledHeaders/LexColor-native-Prefix-habgnxxhmeozpyffpbbbmmhidmip_ast/LexColor-native-Prefix.pch.pch LexColor-native/LexColor-native-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.pch LexColor-native/LexColor-native-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422344868.280629
+e422344870.866665
+r1
+xProcessPCH
+x/var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.pch
+xLexColor-native/LexColor-native-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile LexColor-native/LexColor-native-Prefix.pch322"ProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.pch LexColor-native/LexColor-native-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6c084aa4782cb941^ba15dea6782cb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Prefix.pch0000000000000000^3847"ProcessPCH /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.pch LexColor-native/LexColor-native-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fcantay/Desktop/LexColor-native    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fcantay/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-generated-files.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-own-target-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-all-target-headers.hmap -iquote /Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/LexColor-native-project-headers.hmap -I/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources/i386 -I/Users/fcantay/Desktop/LexColor-native/build/LexColor-native.build/Debug-iphonesimulator/LexColor-native.build/DerivedSources -F/Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.d -c /Users/fcantay/Desktop/LexColor-native/LexColor-native/LexColor-native-Prefix.pch -o /var/folders/s5/15k29hq54_q04wzzrd_g94r80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LexColor-native-Prefix-helhiomdccdkgrbxbcmjcmggabhp/LexColor-native-Prefix.pch.pch36"199144AA-7FB8-4ACE-8EBA-1E33E48D5CBF-
+b8209F387-AF6F-4D8A-9756-8445B5AEB014
+
+CTouch /Users/fcantay/Desktop/LexColor-native/build/Debug-iphonesimulator/LexColor-native.app
+r0
+

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47666A7192DD74E0029FA4E /* ProductDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666A6192DD74E0029FA4E /* ProductDetails.m */; };
+		F47666AC192DDBCA0029FA4E /* X792dePIC.png in Resources */ = {isa = PBXBuildFile; fileRef = F47666AB192DDBCA0029FA4E /* X792dePIC.png */; };
+		F47666AF192DE7EF0029FA4E /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666AE192DE7EF0029FA4E /* ProductDetailsViewController.m */; };
+		F47666B2192DF13A0029FA4E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666B1192DF13A0029FA4E /* Utils.m */; };
+		F47666B5192DFD180029FA4E /* Label1.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666B4192DFD180029FA4E /* Label1.m */; };
+		F4992B7019343C0200EA4B44 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B6F19343C0200EA4B44 /* Constants.m */; };
+		F4992B7319343D4E00EA4B44 /* DataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7219343D4E00EA4B44 /* DataFactory.m */; };
+		F4992B7619345AA400EA4B44 /* RowContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7519345AA400EA4B44 /* RowContainer.m */; };
+		F4992B7C1934852B00EA4B44 /* CustomRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7B1934852B00EA4B44 /* CustomRow.m */; };
+		F4992B8219376AB200EA4B44 /* SuppliesMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B8119376AB100EA4B44 /* SuppliesMatrixViewController.m */; };
+		F4992B8519377CA600EA4B44 /* MachineOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B8419377CA600EA4B44 /* MachineOptionsViewController.m */; };
 		F4A0F195192C4A3200743CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A0F194192C4A3200743CF3 /* Foundation.framework */; };
 		F4A0F197192C4A3200743CF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A0F196192C4A3200743CF3 /* CoreGraphics.framework */; };
 		F4A0F199192C4A3200743CF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A0F198192C4A3200743CF3 /* UIKit.framework */; };
@@ -22,6 +33,17 @@
 		F4A0F1B9192C4A3200743CF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A0F198192C4A3200743CF3 /* UIKit.framework */; };
 		F4A0F1C1192C4A3200743CF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4A0F1BF192C4A3200743CF3 /* InfoPlist.strings */; };
 		F4A0F1C3192C4A3200743CF3 /* LexColor_nativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1C2192C4A3200743CF3 /* LexColor_nativeTests.m */; };
+		F4A0F1CF192C7DBA00743CF3 /* Tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0F1CD192C7DBA00743CF3 /* Tab2.png */; };
+		F4A0F1D0192C7DBA00743CF3 /* Tab3.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0F1CE192C7DBA00743CF3 /* Tab3.png */; };
+		F4A0F1D3192C802700743CF3 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D2192C802700743CF3 /* ProductsViewController.m */; };
+		F4A0F1D6192C807E00743CF3 /* CompetitorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D5192C807E00743CF3 /* CompetitorsViewController.m */; };
+		F4A0F1D9192C814A00743CF3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D8192C814A00743CF3 /* Product.m */; };
+		F4A0F1DC192CA00600743CF3 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1DB192CA00600743CF3 /* ProductCell.m */; };
+		F4A0F1E2192CBC8A00743CF3 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */; };
+		F4D6BC54193323E5006F73B3 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BC53193323E5006F73B3 /* Data.m */; };
+		F4D91D7B192F06FE00DDE597 /* ProductSpecsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D91D7A192F06FE00DDE597 /* ProductSpecsViewController.m */; };
+		F4D91D7D192F3D0100DDE597 /* headerbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D91D7C192F3D0100DDE597 /* headerbackground.png */; };
+		F4E5648B19382B4F00C37D8B /* TaaInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E5648A19382B4F00C37D8B /* TaaInformationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F47666A5192DD74E0029FA4E /* ProductDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetails.h; sourceTree = "<group>"; };
+		F47666A6192DD74E0029FA4E /* ProductDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetails.m; sourceTree = "<group>"; };
+		F47666AB192DDBCA0029FA4E /* X792dePIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X792dePIC.png; sourceTree = "<group>"; };
+		F47666AD192DE7EF0029FA4E /* ProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsViewController.h; sourceTree = "<group>"; };
+		F47666AE192DE7EF0029FA4E /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
+		F47666B0192DF13A0029FA4E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F47666B1192DF13A0029FA4E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		F47666B3192DFD180029FA4E /* Label1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label1.h; sourceTree = "<group>"; };
+		F47666B4192DFD180029FA4E /* Label1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label1.m; sourceTree = "<group>"; };
+		F4992B6E19343C0200EA4B44 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F4992B6F19343C0200EA4B44 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		F4992B7119343D4E00EA4B44 /* DataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFactory.h; sourceTree = "<group>"; };
+		F4992B7219343D4E00EA4B44 /* DataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFactory.m; sourceTree = "<group>"; };
+		F4992B7419345AA300EA4B44 /* RowContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowContainer.h; sourceTree = "<group>"; };
+		F4992B7519345AA400EA4B44 /* RowContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowContainer.m; sourceTree = "<group>"; };
+		F4992B7A1934852B00EA4B44 /* CustomRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRow.h; sourceTree = "<group>"; };
+		F4992B7B1934852B00EA4B44 /* CustomRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRow.m; sourceTree = "<group>"; };
+		F4992B8019376AB100EA4B44 /* SuppliesMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuppliesMatrixViewController.h; path = ../SuppliesMatrixViewController.h; sourceTree = "<group>"; };
+		F4992B8119376AB100EA4B44 /* SuppliesMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuppliesMatrixViewController.m; path = ../SuppliesMatrixViewController.m; sourceTree = "<group>"; };
+		F4992B8319377CA600EA4B44 /* MachineOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineOptionsViewController.h; sourceTree = "<group>"; };
+		F4992B8419377CA600EA4B44 /* MachineOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineOptionsViewController.m; sourceTree = "<group>"; };
 		F4A0F191192C4A3200743CF3 /* LexColor-native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LexColor-native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A0F194192C4A3200743CF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4A0F196192C4A3200743CF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +98,25 @@
 		F4A0F1BE192C4A3200743CF3 /* LexColor-nativeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LexColor-nativeTests-Info.plist"; sourceTree = "<group>"; };
 		F4A0F1C0192C4A3200743CF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4A0F1C2192C4A3200743CF3 /* LexColor_nativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LexColor_nativeTests.m; sourceTree = "<group>"; };
+		F4A0F1CD192C7DBA00743CF3 /* Tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab2.png; sourceTree = "<group>"; };
+		F4A0F1CE192C7DBA00743CF3 /* Tab3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab3.png; sourceTree = "<group>"; };
+		F4A0F1D1192C802700743CF3 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		F4A0F1D2192C802700743CF3 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		F4A0F1D4192C807E00743CF3 /* CompetitorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorsViewController.h; sourceTree = "<group>"; };
+		F4A0F1D5192C807E00743CF3 /* CompetitorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorsViewController.m; sourceTree = "<group>"; };
+		F4A0F1D7192C814A00743CF3 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		F4A0F1D8192C814A00743CF3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		F4A0F1DA192CA00600743CF3 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		F4A0F1DB192CA00600743CF3 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		F4A0F1E0192CBC8A00743CF3 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = ../NewsViewController.h; sourceTree = "<group>"; };
+		F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
+		F4D6BC52193323E5006F73B3 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		F4D6BC53193323E5006F73B3 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		F4D91D79192F06FE00DDE597 /* ProductSpecsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductSpecsViewController.h; sourceTree = "<group>"; };
+		F4D91D7A192F06FE00DDE597 /* ProductSpecsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductSpecsViewController.m; sourceTree = "<group>"; };
+		F4D91D7C192F3D0100DDE597 /* headerbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerbackground.png; sourceTree = "<group>"; };
+		F4E5648919382B4F00C37D8B /* TaaInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaaInformationViewController.h; sourceTree = "<group>"; };
+		F4E5648A19382B4F00C37D8B /* TaaInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaaInformationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +146,7 @@
 		F4A0F188192C4A3200743CF3 = {
 			isa = PBXGroup;
 			children = (
+				F4A0F1CC192C7DBA00743CF3 /* Images */,
 				F4A0F19A192C4A3200743CF3 /* LexColor-native */,
 				F4A0F1BC192C4A3200743CF3 /* LexColor-nativeTests */,
 				F4A0F193192C4A3200743CF3 /* Frameworks */,
@@ -116,7 +179,43 @@
 			children = (
 				F4A0F1A3192C4A3200743CF3 /* AppDelegate.h */,
 				F4A0F1A4192C4A3200743CF3 /* AppDelegate.m */,
+				F4992B8019376AB100EA4B44 /* SuppliesMatrixViewController.h */,
+				F4992B8119376AB100EA4B44 /* SuppliesMatrixViewController.m */,
+				F4A0F1E0192CBC8A00743CF3 /* NewsViewController.h */,
+				F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */,
 				F4A0F1A6192C4A3200743CF3 /* Main_iPhone.storyboard */,
+				F4D91D79192F06FE00DDE597 /* ProductSpecsViewController.h */,
+				F4D6BC52193323E5006F73B3 /* Data.h */,
+				F4992B6E19343C0200EA4B44 /* Constants.h */,
+				F4992B6F19343C0200EA4B44 /* Constants.m */,
+				F4D6BC53193323E5006F73B3 /* Data.m */,
+				F4D91D7A192F06FE00DDE597 /* ProductSpecsViewController.m */,
+				F4E5648919382B4F00C37D8B /* TaaInformationViewController.h */,
+				F4E5648A19382B4F00C37D8B /* TaaInformationViewController.m */,
+				F47666AD192DE7EF0029FA4E /* ProductDetailsViewController.h */,
+				F47666AE192DE7EF0029FA4E /* ProductDetailsViewController.m */,
+				F4992B8319377CA600EA4B44 /* MachineOptionsViewController.h */,
+				F4992B8419377CA600EA4B44 /* MachineOptionsViewController.m */,
+				F47666B3192DFD180029FA4E /* Label1.h */,
+				F47666B4192DFD180029FA4E /* Label1.m */,
+				F4A0F1DA192CA00600743CF3 /* ProductCell.h */,
+				F4A0F1DB192CA00600743CF3 /* ProductCell.m */,
+				F4A0F1D4192C807E00743CF3 /* CompetitorsViewController.h */,
+				F4A0F1D5192C807E00743CF3 /* CompetitorsViewController.m */,
+				F4A0F1D1192C802700743CF3 /* ProductsViewController.h */,
+				F4A0F1D2192C802700743CF3 /* ProductsViewController.m */,
+				F4A0F1D7192C814A00743CF3 /* Product.h */,
+				F47666A5192DD74E0029FA4E /* ProductDetails.h */,
+				F47666A6192DD74E0029FA4E /* ProductDetails.m */,
+				F4A0F1D8192C814A00743CF3 /* Product.m */,
+				F47666B0192DF13A0029FA4E /* Utils.h */,
+				F47666B1192DF13A0029FA4E /* Utils.m */,
+				F4992B7A1934852B00EA4B44 /* CustomRow.h */,
+				F4992B7B1934852B00EA4B44 /* CustomRow.m */,
+				F4992B7419345AA300EA4B44 /* RowContainer.h */,
+				F4992B7519345AA400EA4B44 /* RowContainer.m */,
+				F4992B7119343D4E00EA4B44 /* DataFactory.h */,
+				F4992B7219343D4E00EA4B44 /* DataFactory.m */,
 				F4A0F1A9192C4A3200743CF3 /* Main_iPad.storyboard */,
 				F4A0F1AC192C4A3200743CF3 /* ViewController.h */,
 				F4A0F1AD192C4A3200743CF3 /* ViewController.m */,
@@ -153,6 +252,17 @@
 				F4A0F1BF192C4A3200743CF3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4A0F1CC192C7DBA00743CF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4D91D7C192F3D0100DDE597 /* headerbackground.png */,
+				F47666AB192DDBCA0029FA4E /* X792dePIC.png */,
+				F4A0F1CD192C7DBA00743CF3 /* Tab2.png */,
+				F4A0F1CE192C7DBA00743CF3 /* Tab3.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +341,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D91D7D192F3D0100DDE597 /* headerbackground.png in Resources */,
 				F4A0F1AB192C4A3200743CF3 /* Main_iPad.storyboard in Resources */,
 				F4A0F1B0192C4A3200743CF3 /* Images.xcassets in Resources */,
+				F4A0F1CF192C7DBA00743CF3 /* Tab2.png in Resources */,
+				F4A0F1D0192C7DBA00743CF3 /* Tab3.png in Resources */,
 				F4A0F1A8192C4A3200743CF3 /* Main_iPhone.storyboard in Resources */,
+				F47666AC192DDBCA0029FA4E /* X792dePIC.png in Resources */,
 				F4A0F19F192C4A3200743CF3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +367,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A0F1D6192C807E00743CF3 /* CompetitorsViewController.m in Sources */,
+				F4E5648B19382B4F00C37D8B /* TaaInformationViewController.m in Sources */,
+				F47666B2192DF13A0029FA4E /* Utils.m in Sources */,
 				F4A0F1AE192C4A3200743CF3 /* ViewController.m in Sources */,
 				F4A0F1A5192C4A3200743CF3 /* AppDelegate.m in Sources */,
+				F47666B5192DFD180029FA4E /* Label1.m in Sources */,
+				F4992B7019343C0200EA4B44 /* Constants.m in Sources */,
+				F4D6BC54193323E5006F73B3 /* Data.m in Sources */,
+				F4992B7C1934852B00EA4B44 /* CustomRow.m in Sources */,
+				F4A0F1E2192CBC8A00743CF3 /* NewsViewController.m in Sources */,
+				F4992B7619345AA400EA4B44 /* RowContainer.m in Sources */,
+				F47666A7192DD74E0029FA4E /* ProductDetails.m in Sources */,
+				F4A0F1D9192C814A00743CF3 /* Product.m in Sources */,
+				F4992B7319343D4E00EA4B44 /* DataFactory.m in Sources */,
+				F4A0F1D3192C802700743CF3 /* ProductsViewController.m in Sources */,
+				F47666AF192DE7EF0029FA4E /* ProductDetailsViewController.m in Sources */,
+				F4A0F1DC192CA00600743CF3 /* ProductCell.m in Sources */,
 				F4A0F1A1192C4A3200743CF3 /* main.m in Sources */,
+				F4992B8519377CA600EA4B44 /* MachineOptionsViewController.m in Sources */,
+				F4D91D7B192F06FE00DDE597 /* ProductSpecsViewController.m in Sources */,
+				F4992B8219376AB200EA4B44 /* SuppliesMatrixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +602,7 @@
 				F4A0F1C8192C4A3200743CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4A0F1C9192C4A3200743CF3 /* Build configuration list for PBXNativeTarget "LexColor-nativeTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +611,7 @@
 				F4A0F1CB192C4A3200743CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
