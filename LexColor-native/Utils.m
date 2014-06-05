@@ -161,6 +161,57 @@ static NSString *primaryFontStyle = @"Futura-Medium";
     return row;
 }
 
++ (CustomRow *) getFormattedTableRow3ColumnsB
+{
+    
+    CustomRow *row = [[CustomRow alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
+    row._column1 = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, row.frame.size.width/2, 48)];
+    CGRect frame = row._column1.frame;
+    frame.origin.x = (row.frame.size.width * 0.55) - (row._column1.frame.size.width);
+    frame.origin.y = 0;
+    row._column1.frame = frame;
+    row._column1.font = [UIFont fontWithName:Utils.getPrimaryFontStyle size:10];
+    row._column1.textColor = Utils.getColorLexmarkDarkGray;
+    row._column1.textAlignment = NSTextAlignmentCenter;
+    row._column1.layer.borderColor = [UIColor grayColor].CGColor;
+    row._column1.layer.borderWidth = 1.0;
+    //row._column1.adjustsFontSizeToFitWidth = YES;
+    row._column1.numberOfLines = 100;
+    //row._column1.minimumFontSize = 0;
+    [row addSubview:row._column1];
+    
+    row._column2 = [[UILabel alloc] initWithFrame:CGRectMake((row.frame.size.width * 0.55) - 1, 0, row.frame.size.width/5, 48)];
+    row._column2.font = [UIFont fontWithName:Utils.getPrimaryFontStyle size:10];
+    row._column2.textColor = Utils.getColorLexmarkDarkGray;
+    row._column2.textAlignment = NSTextAlignmentCenter;
+    row._column2.layer.borderColor = [UIColor grayColor].CGColor;
+    row._column2.layer.borderWidth = 1.0;
+    //row._column2.adjustsFontSizeToFitWidth = YES;
+    row._column2.numberOfLines = 100;
+    //row._column2.minimumFontSize = 0;
+    [row addSubview:row._column2];
+    
+    row._column3 = [[UILabel alloc] initWithFrame:CGRectMake((row.frame.size.width * 0.75) - 2, 0, row.frame.size.width/5, 48)];
+    row._column3.font = [UIFont fontWithName:Utils.getPrimaryFontStyle size:10];
+    row._column3.textColor = Utils.getColorLexmarkDarkGray;
+    row._column3.textAlignment = NSTextAlignmentCenter;
+    row._column3.layer.borderColor = [UIColor grayColor].CGColor;
+    row._column3.layer.borderWidth = 1.0;
+    //row._column3.adjustsFontSizeToFitWidth = YES;
+    row._column3.numberOfLines = 100;
+    //row._column3.minimumFontSize = 0;
+    [row addSubview:row._column3];
+    
+    row._column4 = [UILabel alloc];
+    row._column5 = [UILabel alloc];
+    row._column6 = [UILabel alloc];
+    row._column7 = [UILabel alloc];
+    
+    row._height = row.frame.size.height;
+    
+    return row;
+}
+
 + (CustomRow *) getFormattedTableRow7Columns
 {
     
@@ -255,6 +306,7 @@ static NSString *primaryFontStyle = @"Futura-Medium";
 
 + (void) resizeRowHeight: (CustomRow *) row
 {
+    double temp = row._height;
     if(row._column1.frame.size.height > row._height) {
         row._height = row._column1.frame.size.height;
     }
@@ -313,7 +365,12 @@ static NSString *primaryFontStyle = @"Futura-Medium";
     row._column7.frame = newFrame;
     
     newFrame = row.frame;
-    newFrame.size.height = row._height;
+    if (temp < row._height) {
+        newFrame.size.height = row._height + 1;
+    } else {
+        newFrame.size.height = row._height;
+    }
+    
     row.frame = newFrame;
     
 }

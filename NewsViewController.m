@@ -37,7 +37,7 @@
     titleLabel.textColor = Utils.getColorLexmarkWhite;
     titleLabel.textAlignment = NSTextAlignmentCenter;
     titleLabel.font = [UIFont fontWithName:Utils.getPrimaryFontStyle size:16];
-    titleLabel.text = @"Current News";
+    titleLabel.text = @"Live News";
     self.navigationItem.titleView = titleLabel;
     
     NSURL *url = [NSURL URLWithString:@"http://www.brantnystrom.com/tweet_test/index.html"];

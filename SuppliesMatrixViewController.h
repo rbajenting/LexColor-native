@@ -11,6 +11,6 @@
 @interface SuppliesMatrixViewController : UIViewController
 
 @property (nonatomic, strong) NSMutableArray *_suppliesMatrixItems;
-@property (nonatomic, copy) NSString *_headerTitle;
+@property (nonatomic, strong) NSString *_headerTitle;
 
 @end

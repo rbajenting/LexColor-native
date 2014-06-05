@@ -10,7 +10,7 @@
 
 @interface ProductDetails : NSObject
 
-@property (nonatomic, copy) NSString *productImageFileName;
+@property (nonatomic, strong) NSString *productImageFileName;
 @property (nonatomic, copy) NSString *productDescription;
 
 @end

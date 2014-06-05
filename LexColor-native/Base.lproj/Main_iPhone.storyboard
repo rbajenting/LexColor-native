@@ -44,14 +44,14 @@
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="or7-mf-KFn">
                                             <rect key="frame" x="14" y="0.0" width="280" height="27"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                             <color key="textColor" red="0.32156862749999998" green="0.17254901959999999" blue="0.4941176471" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cai-uh-v4m">
                                             <rect key="frame" x="14" y="18" width="280" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                             <color key="textColor" red="0.25490196079999999" green="0.25098039220000001" blue="0.25882352939999997" alpha="1" colorSpace="deviceRGB"/>
                                             <nil key="highlightedColor"/>
                                             <attributedString key="userComments">
@@ -112,35 +112,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2X-pa-1qe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2209" y="-1104"/>
-        </scene>
-        <!--Competitors View Controller - Lexmark Competitors-->
-        <scene sceneID="q6J-90-nxR">
-            <objects>
-                <tableViewController id="1XB-5a-boJ" customClass="CompetitorsViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Lb9-86-Bcz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="IJh-Em-djm">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IJh-Em-djm" id="cgb-N5-EuD">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="1XB-5a-boJ" id="cvh-5O-D9V"/>
-                            <outlet property="delegate" destination="1XB-5a-boJ" id="Yhm-DT-GoH"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Lexmark Competitors" id="TSG-HA-EUM"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yMI-9X-kvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1201" y="-304"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="ydU-fS-AZj">
@@ -227,12 +198,82 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="1XB-5a-boJ" kind="relationship" relationship="rootViewController" id="GGX-ef-gf2"/>
+                        <segue destination="chC-LR-fOP" kind="relationship" relationship="rootViewController" id="Q05-m9-e3M"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PaJ-tk-r8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="675" y="-304"/>
+        </scene>
+        <!--Competitors Table View Controller-->
+        <scene sceneID="aum-fd-lqh">
+            <objects>
+                <tableViewController id="chC-LR-fOP" customClass="CompetitorsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="gtM-Xh-jKq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="competitorTableCell" id="St8-MA-KyX" customClass="CompetitorTableViewCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="St8-MA-KyX" id="PJD-VI-S2E">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="blL-x2-NvH">
+                                            <rect key="frame" x="7" y="0.0" width="43" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wdQ-Fy-7Sq">
+                                            <rect key="frame" x="58" y="2" width="235" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <color key="textColor" red="0.32156862749999998" green="0.17254901959999999" blue="0.4941176471" alpha="1" colorSpace="deviceRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6WV-YX-C3U">
+                                            <rect key="frame" x="58" y="22" width="235" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                            <color key="textColor" red="0.25490196079999999" green="0.25098039220000001" blue="0.25882352939999997" alpha="1" colorSpace="deviceRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descLabel" destination="6WV-YX-C3U" id="Vyd-jD-tbl"/>
+                                    <outlet property="imageView" destination="blL-x2-NvH" id="FDd-oI-dTl"/>
+                                    <outlet property="nameLabel" destination="wdQ-Fy-7Sq" id="l3h-VC-VOt"/>
+                                    <segue destination="RzN-ps-VjC" kind="push" identifier="showCompetitorDetails" id="aBU-z1-fWC"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="chC-LR-fOP" id="eeJ-0s-noJ"/>
+                            <outlet property="delegate" destination="chC-LR-fOP" id="KOb-19-BIe"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="NEY-qm-dVX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I7W-q8-Mwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1206" y="-304"/>
+        </scene>
+        <!--Competitor Details View Controller-->
+        <scene sceneID="H4b-Lq-OMH">
+            <objects>
+                <viewController id="RzN-ps-VjC" customClass="CompetitorDetailsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="caD-gY-EF1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0fQ-Bl-4U1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yTY-qy-8QI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709" y="-304"/>
         </scene>
         <!--Navigation Controller - Support-->
         <scene sceneID="jn2-wz-Sqn">

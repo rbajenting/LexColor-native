@@ -30,7 +30,11 @@ enum ProductType {
     enum_producttype_CS310,
     enum_producttype_X950,
     enum_producttype_X954,
-    enum_producttype_C950
+    enum_producttype_C950,
+    enum_competitortype_X792_HP_CM4540,
+    enum_competitortype_X792_RC_MPC400,
+    enum_competitortype_X792_SH_MXC402SC,
+    enum_competitortype_X792_XR_8900X
 };
 
 @interface Constants : NSObject

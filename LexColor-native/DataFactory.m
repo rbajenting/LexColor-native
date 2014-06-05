@@ -724,9 +724,9 @@
     return machineOptionsItems;
 }
 
-+ (NSMutableArray *) getTaaInformationItems:(enum ProductType) productType
++ (NSMutableArray *) getTaaOrderingMatrixItems:(enum ProductType) productType
 {
-    NSMutableArray *taaInformationItems = [NSMutableArray array];
+    NSMutableArray *taaOrderingMatrixItems = [NSMutableArray array];
     Data *item;
     
     switch (productType) {
@@ -1162,7 +1162,7 @@
             item._key = @" • TAA Ordering Matrix:";
             item._rowValue = tableSet;
             
-            [taaInformationItems addObject:item];
+            [taaOrderingMatrixItems addObject:item];
             break;
         }
         
@@ -1171,7 +1171,502 @@
         }
     }
     
-    return taaInformationItems;
+    return taaOrderingMatrixItems;
+}
+
++ (NSMutableArray *) getTaaSuppliesMatrixItems:(enum ProductType) productType
+{
+    NSMutableArray *taaSuppliesMatrixItems = [NSMutableArray array];
+    Data *item;
+    
+    switch (productType) {
+        case enum_producttype_X792: {
+            NSLog(@"X792 selected");
+            
+            NSMutableArray *tableSet = [NSMutableArray array];
+            
+            RowContainer *row = [RowContainer alloc];
+            row._column1 = @"";
+            row._column2 = @"TAA/GSA Print Cartridges";
+            row._column3 = @"";
+            row._isHeader = YES;
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"C792, X792 Cyan Return Pgm TAA/GSA Print Cartridge";
+            row._column2 = @"C792A4CG";
+            row._column3 = @"7-34646-22681-3";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"C792, X792 Magenta Return Pgm TAA/GSA Print Cartridge ";
+            row._column2 = @"C792A4MG";
+            row._column3 = @"7-34646-22684-4";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"C792, X792 Yellow Return Pgm TAA/GSA Print Cartridge ";
+            row._column2 = @"C792A4YG";
+            row._column3 = @"7-34646-22685-1";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"C792, X792 Black Return Pgm TAA/GSA Print Cartridge ";
+            row._column2 = @"C792A4KG";
+            row._column3 = @"7-34646-22686-8";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"X792 Cyan Extra High Yield Return Pgm TAA/GSA Print Cartridge ";
+            row._column2 = @"X792X4CG";
+            row._column3 = @"7-34646-25249-2";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"X792 Magenta Extra High Yield Return Pgm TAA/GSA Print Cartridge ";
+            row._column2 = @"X792X4MG";
+            row._column3 = @"7-34646-25253-9";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"X792 Yellow Extra High Yield Return Pgm TAA/GSA Print Cartridge ";
+            row._column2 = @"X792X4YG";
+            row._column3 = @"7-34646-25254-6";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"X792 Black Extra High Yield Return Pgm TAA/GSA Print Cartridge ";
+            row._column2 = @"X792X4KG";
+            row._column3 = @"7-34646-25255-3";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"";
+            row._column2 = @"Staples";
+            row._column3 = @"";
+            row._isHeader = YES;
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"Staple Cartidges";
+            row._column2 = @"25A0013";
+            row._column3 = @"7-34646-55313-1";
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"";
+            row._column2 = @"Maintenance";
+            row._column3 = @"";
+            row._isHeader = YES;
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"C792, X792 Waste Toner Bottle";
+            row._column2 = @"C792X77G";
+            row._column3 = @"7-34646-22836-7";
+            [tableSet addObject:row];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_table2columns;
+            item._key = @" • TAA Supplies Matrix:";
+            item._rowValue = tableSet;
+            
+            [taaSuppliesMatrixItems addObject:item];
+            break;
+        }
+        
+        default: {
+            break;
+        }
+    }
+    
+    return taaSuppliesMatrixItems;
+}
+
+
++ (NSMutableArray *) getCompetitorSpecItems:(enum ProductType) productType
+{
+    NSMutableArray *competitorSpecsItems = [NSMutableArray array];
+    Data *item;
+    
+    switch (productType) {
+        case enum_competitortype_X792_HP_CM4540: {
+            NSLog(@"HP CM4540 selected");
+            
+            item = [Data alloc];
+            item._type = enum_infotype_image;
+            item._key = @" • Product Image:";
+            item._stringValue= @"hpcm4540.png";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • SRP/Street Price:";
+            item._stringValue= @"None/$3,799";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Manufacturing Status:";
+            item._stringValue= @"New";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Domestic Intro Date:";
+            item._stringValue= @"November 2010";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • OEM:";
+            item._stringValue= @"HP (Japan)";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Also Sold As:";
+            item._stringValue= @"None ";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Distributed By:";
+            item._stringValue= @"Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Max Monthly Duty Cycle:";
+            item._stringValue= @"175,000 impressions";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Recommended Monthly Volume:";
+            item._stringValue= @"5,000 to 9,000 impressions";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • TYPE:";
+            item._stringValue= @"Full-color printer, MF";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Configuration/Scanner:";
+            item._stringValue= @"Desktop,digital";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Toner:";
+            item._stringValue= @"dry, monocomponent";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • First Copy Time:";
+            item._stringValue= @"12 sec color/12 sec black";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Multicopy (Ltr/Lgl/Ldgr):";
+            item._stringValue= @"42 cpm color/42 cpm black";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Warm-up Time:";
+            item._stringValue= @"None";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Std Paper Source(s):";
+            item._stringValue= @"Single drawer";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Std Paper Capacity:";
+            item._stringValue= @"500 sheets";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Paper Weights:";
+            item._stringValue= @"Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Bypass/Paper Weights:";
+            item._stringValue= @"100-sheet/Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Max Paper Sources:";
+            item._stringValue= @"4";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Max Paper Capacity:";
+            item._stringValue= @"2,100 sheets";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Max Original Size:";
+            item._stringValue= @"8-1/2 x 14";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Output Size (Min/Max):";
+            item._stringValue= @"4 x 6/8-1/2 x 14";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Copy Resolution:";
+            item._stringValue= @"600 x 600 dpi";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • System Memory (Std/Max):";
+            item._stringValue= @"1,280-MB RAM, 250-GB HD/1,280-MB RAM, 250-GB HD";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Duplex:";
+            item._stringValue= @"Auto (1:2,2:2,2:1)";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Duplex Capacity/Paper Sizes:";
+            item._stringValue= @"Unlimited/Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Document Feeder:";
+            item._stringValue= @"Std RADF";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Doc Feeder Speed/Capacity:";
+            item._stringValue= @"Info not avail/50 orig";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Paper Weights:";
+            item._stringValue= @"Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Sorter (Bins/Capacity):";
+            item._stringValue= @"None";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Staple Sorter:";
+            item._stringValue= @"None";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Bins/Stapling Capacity:";
+            item._stringValue= @"Not applicable";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Stapling Positions:";
+            item._stringValue= @"Not applicable";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Finisher:";
+            item._stringValue= @"None";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Tray/Stapling/Position(s):";
+            item._stringValue= @"Not applicable";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Other:";
+            item._stringValue= @"Opt 900-sheet 3-bin stapling mailbox sorts, collates, staples and stacks documents";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Dimensions (HxWxD):";
+            item._stringValue= @"22.6 in. x 35.6 in. x 24.5 in.";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Weight:";
+            item._stringValue= @"120.5 lbs";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Power Requirements:";
+            item._stringValue= @"110-127 V, 12 A";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Energy Used While Power Off:";
+            item._stringValue= @".3W";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Energy Used in Power Save Mode:";
+            item._stringValue= @"21.5W";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Energy Used in Ready Mode:";
+            item._stringValue= @"91W";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Energy Used While Copying:";
+            item._stringValue= @"850W";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Energy Used While Printing:";
+            item._stringValue= @"780W";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Energy Used While Scanning:";
+            item._stringValue= @"Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Max Power Consumption:";
+            item._stringValue= @"Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • TEC Value:";
+            item._stringValue= @"Info not avail";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Dedicated Outlet:";
+            item._stringValue= @"Not required";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Energy Star Compliant:";
+            item._stringValue= @"Yes";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Operating Noise Level:";
+            item._stringValue= @"57 dB";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • COMMENTS:";
+            item._stringValue= @"None";
+            [competitorSpecsItems addObject:item];
+            [item release];
+            
+            break;
+        }
+        
+        default: {
+            break;
+        }
+    }
+    
+    return competitorSpecsItems;
 }
 
 @end

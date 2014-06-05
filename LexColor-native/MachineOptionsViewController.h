@@ -11,6 +11,6 @@
 @interface MachineOptionsViewController : UIViewController
 
 @property (nonatomic, strong) NSMutableArray *_machineOptionsItems;
-@property (nonatomic, copy) NSString *_headerTitle;
+@property (nonatomic, strong) NSString *_headerTitle;
 
 @end

@@ -12,6 +12,20 @@
 		F47666AF192DE7EF0029FA4E /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666AE192DE7EF0029FA4E /* ProductDetailsViewController.m */; };
 		F47666B2192DF13A0029FA4E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666B1192DF13A0029FA4E /* Utils.m */; };
 		F47666B5192DFD180029FA4E /* Label1.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666B4192DFD180029FA4E /* Label1.m */; };
+		F480489B193FF93F0029EACE /* CompetitorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F480489A193FF93F0029EACE /* CompetitorsTableViewController.m */; };
+		F480489E193FF9820029EACE /* CompetitorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F480489D193FF9820029EACE /* CompetitorTableViewCell.m */; };
+		F48048A019400BAB0029EACE /* HP.png in Resources */ = {isa = PBXBuildFile; fileRef = F480489F19400BAB0029EACE /* HP.png */; };
+		F48048A41940182D0029EACE /* Sharp.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048A31940182D0029EACE /* Sharp.png */; };
+		F48048A619401A160029EACE /* ricoh.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048A519401A160029EACE /* ricoh.png */; };
+		F48048A819401A3B0029EACE /* Xerox.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048A719401A3B0029EACE /* Xerox.png */; };
+		F48048AA19401A550029EACE /* KM.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048A919401A550029EACE /* KM.png */; };
+		F48048AC19401A690029EACE /* Kyocera.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048AB19401A690029EACE /* Kyocera.png */; };
+		F48048AE19401A7A0029EACE /* Canon.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048AD19401A7A0029EACE /* Canon.png */; };
+		F48048B019401A8C0029EACE /* Bro.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048AF19401A8C0029EACE /* Bro.png */; };
+		F48048B219401AA90029EACE /* samsung.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048B119401AA90029EACE /* samsung.png */; };
+		F48048B419401ABA0029EACE /* OKI.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048B319401ABA0029EACE /* OKI.png */; };
+		F48048BC194051EE0029EACE /* CompetitorDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48048BB194051EE0029EACE /* CompetitorDetailsViewController.m */; };
+		F48048BE194061B80029EACE /* hpcm4540.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048BD194061B80029EACE /* hpcm4540.png */; };
 		F4992B7019343C0200EA4B44 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B6F19343C0200EA4B44 /* Constants.m */; };
 		F4992B7319343D4E00EA4B44 /* DataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7219343D4E00EA4B44 /* DataFactory.m */; };
 		F4992B7619345AA400EA4B44 /* RowContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7519345AA400EA4B44 /* RowContainer.m */; };
@@ -36,7 +50,6 @@
 		F4A0F1CF192C7DBA00743CF3 /* Tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0F1CD192C7DBA00743CF3 /* Tab2.png */; };
 		F4A0F1D0192C7DBA00743CF3 /* Tab3.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0F1CE192C7DBA00743CF3 /* Tab3.png */; };
 		F4A0F1D3192C802700743CF3 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D2192C802700743CF3 /* ProductsViewController.m */; };
-		F4A0F1D6192C807E00743CF3 /* CompetitorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D5192C807E00743CF3 /* CompetitorsViewController.m */; };
 		F4A0F1D9192C814A00743CF3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D8192C814A00743CF3 /* Product.m */; };
 		F4A0F1DC192CA00600743CF3 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1DB192CA00600743CF3 /* ProductCell.m */; };
 		F4A0F1E2192CBC8A00743CF3 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */; };
@@ -44,6 +57,8 @@
 		F4D91D7B192F06FE00DDE597 /* ProductSpecsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D91D7A192F06FE00DDE597 /* ProductSpecsViewController.m */; };
 		F4D91D7D192F3D0100DDE597 /* headerbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D91D7C192F3D0100DDE597 /* headerbackground.png */; };
 		F4E5648B19382B4F00C37D8B /* TaaInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E5648A19382B4F00C37D8B /* TaaInformationViewController.m */; };
+		F4E56498193C728000C37D8B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E56497193C728000C37D8B /* MessageUI.framework */; };
+		F4E5649B193C736E00C37D8B /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E5649A193C736E00C37D8B /* EmailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +81,23 @@
 		F47666B1192DF13A0029FA4E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		F47666B3192DFD180029FA4E /* Label1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label1.h; sourceTree = "<group>"; };
 		F47666B4192DFD180029FA4E /* Label1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label1.m; sourceTree = "<group>"; };
+		F4804899193FF93F0029EACE /* CompetitorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorsTableViewController.h; sourceTree = "<group>"; };
+		F480489A193FF93F0029EACE /* CompetitorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorsTableViewController.m; sourceTree = "<group>"; };
+		F480489C193FF9820029EACE /* CompetitorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorTableViewCell.h; sourceTree = "<group>"; };
+		F480489D193FF9820029EACE /* CompetitorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorTableViewCell.m; sourceTree = "<group>"; };
+		F480489F19400BAB0029EACE /* HP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HP.png; path = "../../Lexcolor-wip/LexColor/HP.png"; sourceTree = "<group>"; };
+		F48048A31940182D0029EACE /* Sharp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sharp.png; sourceTree = "<group>"; };
+		F48048A519401A160029EACE /* ricoh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ricoh.png; sourceTree = "<group>"; };
+		F48048A719401A3B0029EACE /* Xerox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xerox.png; sourceTree = "<group>"; };
+		F48048A919401A550029EACE /* KM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KM.png; sourceTree = "<group>"; };
+		F48048AB19401A690029EACE /* Kyocera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kyocera.png; sourceTree = "<group>"; };
+		F48048AD19401A7A0029EACE /* Canon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Canon.png; sourceTree = "<group>"; };
+		F48048AF19401A8C0029EACE /* Bro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bro.png; sourceTree = "<group>"; };
+		F48048B119401AA90029EACE /* samsung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samsung.png; sourceTree = "<group>"; };
+		F48048B319401ABA0029EACE /* OKI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OKI.png; sourceTree = "<group>"; };
+		F48048BA194051EE0029EACE /* CompetitorDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorDetailsViewController.h; sourceTree = "<group>"; };
+		F48048BB194051EE0029EACE /* CompetitorDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorDetailsViewController.m; sourceTree = "<group>"; };
+		F48048BD194061B80029EACE /* hpcm4540.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hpcm4540.png; sourceTree = "<group>"; };
 		F4992B6E19343C0200EA4B44 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		F4992B6F19343C0200EA4B44 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		F4992B7119343D4E00EA4B44 /* DataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFactory.h; sourceTree = "<group>"; };
@@ -102,8 +134,6 @@
 		F4A0F1CE192C7DBA00743CF3 /* Tab3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab3.png; sourceTree = "<group>"; };
 		F4A0F1D1192C802700743CF3 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
 		F4A0F1D2192C802700743CF3 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
-		F4A0F1D4192C807E00743CF3 /* CompetitorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorsViewController.h; sourceTree = "<group>"; };
-		F4A0F1D5192C807E00743CF3 /* CompetitorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorsViewController.m; sourceTree = "<group>"; };
 		F4A0F1D7192C814A00743CF3 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		F4A0F1D8192C814A00743CF3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		F4A0F1DA192CA00600743CF3 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
@@ -117,6 +147,9 @@
 		F4D91D7C192F3D0100DDE597 /* headerbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerbackground.png; sourceTree = "<group>"; };
 		F4E5648919382B4F00C37D8B /* TaaInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaaInformationViewController.h; sourceTree = "<group>"; };
 		F4E5648A19382B4F00C37D8B /* TaaInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaaInformationViewController.m; sourceTree = "<group>"; };
+		F4E56497193C728000C37D8B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F4E56499193C736E00C37D8B /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		F4E5649A193C736E00C37D8B /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E56498193C728000C37D8B /* MessageUI.framework in Frameworks */,
 				F4A0F197192C4A3200743CF3 /* CoreGraphics.framework in Frameworks */,
 				F4A0F199192C4A3200743CF3 /* UIKit.framework in Frameworks */,
 				F4A0F195192C4A3200743CF3 /* Foundation.framework in Frameworks */,
@@ -143,6 +177,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F48048B519401AC70029EACE /* Competitors */ = {
+			isa = PBXGroup;
+			children = (
+				F48048B8194025530029EACE /* Sample */,
+				F48048B619401AD30029EACE /* Logo */,
+			);
+			name = Competitors;
+			sourceTree = "<group>";
+		};
+		F48048B619401AD30029EACE /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				F48048B319401ABA0029EACE /* OKI.png */,
+				F48048B119401AA90029EACE /* samsung.png */,
+				F48048AF19401A8C0029EACE /* Bro.png */,
+				F48048AD19401A7A0029EACE /* Canon.png */,
+				F48048AB19401A690029EACE /* Kyocera.png */,
+				F48048A919401A550029EACE /* KM.png */,
+				F48048A719401A3B0029EACE /* Xerox.png */,
+				F48048A519401A160029EACE /* ricoh.png */,
+				F48048A31940182D0029EACE /* Sharp.png */,
+				F480489F19400BAB0029EACE /* HP.png */,
+			);
+			name = Logo;
+			sourceTree = "<group>";
+		};
+		F48048B7194025390029EACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48048B9194025660029EACE /* Sample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48048B8194025530029EACE /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				F48048BD194061B80029EACE /* hpcm4540.png */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
+		F48048B9194025660029EACE /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				F47666AB192DDBCA0029FA4E /* X792dePIC.png */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
 		F4A0F188192C4A3200743CF3 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +250,7 @@
 		F4A0F193192C4A3200743CF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4E56497193C728000C37D8B /* MessageUI.framework */,
 				F4A0F194192C4A3200743CF3 /* Foundation.framework */,
 				F4A0F196192C4A3200743CF3 /* CoreGraphics.framework */,
 				F4A0F198192C4A3200743CF3 /* UIKit.framework */,
@@ -179,11 +264,19 @@
 			children = (
 				F4A0F1A3192C4A3200743CF3 /* AppDelegate.h */,
 				F4A0F1A4192C4A3200743CF3 /* AppDelegate.m */,
+				F4E56499193C736E00C37D8B /* EmailViewController.h */,
+				F4E5649A193C736E00C37D8B /* EmailViewController.m */,
 				F4992B8019376AB100EA4B44 /* SuppliesMatrixViewController.h */,
 				F4992B8119376AB100EA4B44 /* SuppliesMatrixViewController.m */,
 				F4A0F1E0192CBC8A00743CF3 /* NewsViewController.h */,
 				F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */,
 				F4A0F1A6192C4A3200743CF3 /* Main_iPhone.storyboard */,
+				F48048BA194051EE0029EACE /* CompetitorDetailsViewController.h */,
+				F48048BB194051EE0029EACE /* CompetitorDetailsViewController.m */,
+				F4804899193FF93F0029EACE /* CompetitorsTableViewController.h */,
+				F480489A193FF93F0029EACE /* CompetitorsTableViewController.m */,
+				F480489C193FF9820029EACE /* CompetitorTableViewCell.h */,
+				F480489D193FF9820029EACE /* CompetitorTableViewCell.m */,
 				F4D91D79192F06FE00DDE597 /* ProductSpecsViewController.h */,
 				F4D6BC52193323E5006F73B3 /* Data.h */,
 				F4992B6E19343C0200EA4B44 /* Constants.h */,
@@ -200,8 +293,6 @@
 				F47666B4192DFD180029FA4E /* Label1.m */,
 				F4A0F1DA192CA00600743CF3 /* ProductCell.h */,
 				F4A0F1DB192CA00600743CF3 /* ProductCell.m */,
-				F4A0F1D4192C807E00743CF3 /* CompetitorsViewController.h */,
-				F4A0F1D5192C807E00743CF3 /* CompetitorsViewController.m */,
 				F4A0F1D1192C802700743CF3 /* ProductsViewController.h */,
 				F4A0F1D2192C802700743CF3 /* ProductsViewController.m */,
 				F4A0F1D7192C814A00743CF3 /* Product.h */,
@@ -257,8 +348,9 @@
 		F4A0F1CC192C7DBA00743CF3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F48048B7194025390029EACE /* Products */,
+				F48048B519401AC70029EACE /* Competitors */,
 				F4D91D7C192F3D0100DDE597 /* headerbackground.png */,
-				F47666AB192DDBCA0029FA4E /* X792dePIC.png */,
 				F4A0F1CD192C7DBA00743CF3 /* Tab2.png */,
 				F4A0F1CE192C7DBA00743CF3 /* Tab3.png */,
 			);
@@ -343,11 +435,22 @@
 			files = (
 				F4D91D7D192F3D0100DDE597 /* headerbackground.png in Resources */,
 				F4A0F1AB192C4A3200743CF3 /* Main_iPad.storyboard in Resources */,
+				F48048B419401ABA0029EACE /* OKI.png in Resources */,
+				F48048A41940182D0029EACE /* Sharp.png in Resources */,
 				F4A0F1B0192C4A3200743CF3 /* Images.xcassets in Resources */,
+				F48048BE194061B80029EACE /* hpcm4540.png in Resources */,
+				F48048B219401AA90029EACE /* samsung.png in Resources */,
 				F4A0F1CF192C7DBA00743CF3 /* Tab2.png in Resources */,
+				F48048AC19401A690029EACE /* Kyocera.png in Resources */,
 				F4A0F1D0192C7DBA00743CF3 /* Tab3.png in Resources */,
+				F48048B019401A8C0029EACE /* Bro.png in Resources */,
+				F48048A019400BAB0029EACE /* HP.png in Resources */,
+				F48048AA19401A550029EACE /* KM.png in Resources */,
 				F4A0F1A8192C4A3200743CF3 /* Main_iPhone.storyboard in Resources */,
+				F48048A819401A3B0029EACE /* Xerox.png in Resources */,
+				F48048AE19401A7A0029EACE /* Canon.png in Resources */,
 				F47666AC192DDBCA0029FA4E /* X792dePIC.png in Resources */,
+				F48048A619401A160029EACE /* ricoh.png in Resources */,
 				F4A0F19F192C4A3200743CF3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,9 +470,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A0F1D6192C807E00743CF3 /* CompetitorsViewController.m in Sources */,
 				F4E5648B19382B4F00C37D8B /* TaaInformationViewController.m in Sources */,
 				F47666B2192DF13A0029FA4E /* Utils.m in Sources */,
+				F480489B193FF93F0029EACE /* CompetitorsTableViewController.m in Sources */,
 				F4A0F1AE192C4A3200743CF3 /* ViewController.m in Sources */,
 				F4A0F1A5192C4A3200743CF3 /* AppDelegate.m in Sources */,
 				F47666B5192DFD180029FA4E /* Label1.m in Sources */,
@@ -382,10 +485,13 @@
 				F4A0F1D9192C814A00743CF3 /* Product.m in Sources */,
 				F4992B7319343D4E00EA4B44 /* DataFactory.m in Sources */,
 				F4A0F1D3192C802700743CF3 /* ProductsViewController.m in Sources */,
+				F480489E193FF9820029EACE /* CompetitorTableViewCell.m in Sources */,
+				F4E5649B193C736E00C37D8B /* EmailViewController.m in Sources */,
 				F47666AF192DE7EF0029FA4E /* ProductDetailsViewController.m in Sources */,
 				F4A0F1DC192CA00600743CF3 /* ProductCell.m in Sources */,
 				F4A0F1A1192C4A3200743CF3 /* main.m in Sources */,
 				F4992B8519377CA600EA4B44 /* MachineOptionsViewController.m in Sources */,
+				F48048BC194051EE0029EACE /* CompetitorDetailsViewController.m in Sources */,
 				F4D91D7B192F06FE00DDE597 /* ProductSpecsViewController.m in Sources */,
 				F4992B8219376AB200EA4B44 /* SuppliesMatrixViewController.m in Sources */,
 			);
@@ -522,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LexColor-native/LexColor-native-Prefix.pch";
 				INFOPLIST_FILE = "LexColor-native/LexColor-native-Info.plist";
@@ -535,6 +642,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LexColor-native/LexColor-native-Prefix.pch";
 				INFOPLIST_FILE = "LexColor-native/LexColor-native-Info.plist";

@@ -10,6 +10,7 @@
 #import "SuppliesMatrixViewController.h"
 #import "MachineOptionsViewController.h"
 #import "TaaInformationViewController.h"
+#import "EmailViewController.h"
 #import "Utils.h"
 #import "ProductSpecsViewController.h"
 #import "DataFactory.h"
@@ -158,7 +159,7 @@
     sendSpecsButton.center = CGPointMake(self.view.center.x, yPos);
     [scrollView addSubview:sendSpecsButton];
     [sendSpecsButton setTitle:@"Send Product Specs" forState:UIControlStateNormal];
-    [sendSpecsButton addTarget:self action:@selector(pushProductSpecsViewController) forControlEvents:UIControlEventTouchUpInside];
+    [sendSpecsButton addTarget:self action:@selector(pushEmailViewController) forControlEvents:UIControlEventTouchUpInside];
     
     yPos = yPos + sendSpecsButton.frame.size.height + 10;
     
@@ -194,8 +195,22 @@
 {
     TaaInformationViewController *taaInformationViewController = [[TaaInformationViewController alloc] init];
     taaInformationViewController._headerTitle = _product.headerTitle;
-    taaInformationViewController._taaInformationItems = [DataFactory getTaaInformationItems:_product.productType];
+    taaInformationViewController._taaOrderingMatrixItems = [DataFactory getTaaOrderingMatrixItems:_product.productType];
+    taaInformationViewController._taaSuppliesMatrixItems = [DataFactory getTaaSuppliesMatrixItems:_product.productType];
     [self.navigationController pushViewController:taaInformationViewController animated:YES];
+}
+
+- (IBAction)pushEmailViewController
+{
+    //BDNMailLauncher *mailLauncher = [[BDNMailLauncher alloc] init];
+    //mailLauncher._product = @"X792";
+    //mailLauncher._specs = @"X92 Family Brochure.pdf";
+    //mailLauncher.launchMailComposer;
+    EmailViewController *emailViewController = [[EmailViewController alloc] init];
+    emailViewController._product = _product.shortName;
+    emailViewController._link = _product.brochureLink;
+    emailViewController.openEmail;
+    [self addChildViewController:emailViewController];
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,7 +10,7 @@
 
 @interface ProductCell : UITableViewCell
 
-@property (nonatomic, weak) IBOutlet UILabel *nameLabel;
-@property (nonatomic, weak) IBOutlet UILabel *descLabel;
+@property (nonatomic, strong) IBOutlet UILabel *nameLabel;
+@property (nonatomic, strong) IBOutlet UILabel *descLabel;
 
 @end

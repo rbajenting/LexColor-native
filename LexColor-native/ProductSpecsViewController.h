@@ -11,6 +11,6 @@
 @interface ProductSpecsViewController : UIViewController
 
 @property (nonatomic, strong) NSMutableArray *_productSpecsItems;
-@property (nonatomic, copy) NSString *_headerTitle;
+@property (nonatomic, strong) NSString *_headerTitle;
 
 @end

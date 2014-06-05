@@ -16,7 +16,8 @@
 @end
 
 @implementation TaaInformationViewController
-@synthesize _taaInformationItems;
+@synthesize _taaOrderingMatrixItems;
+@synthesize _taaSuppliesMatrixItems;
 @synthesize _headerTitle;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -69,7 +70,7 @@
     
     yPos = yPos + mainTitleLabel.frame.size.height;
     
-    for (Data *item in _taaInformationItems) {
+    for (Data *item in _taaOrderingMatrixItems) {
         
         // image label
         UILabel *imageLabel = Utils.getFormattedLabel;
@@ -130,6 +131,69 @@
             
             yPos = yPos + 10;
             
+        }
+    }
+    
+    for (Data *item in _taaSuppliesMatrixItems) {
+        
+        // image label
+        UILabel *imageLabel = Utils.getFormattedLabel;
+        imageLabel.text = item._key;
+        imageLabel.center = CGPointMake(self.view.center.x, yPos+12);
+        [scrollView addSubview:imageLabel];
+        
+        yPos = yPos + imageLabel.frame.size.height;
+        
+        
+        yPos = yPos + 10;
+        
+        if ([item._rowValue count] > 0) {
+            for (RowContainer *row in item._rowValue) {
+                CustomRow *rowView = Utils.getFormattedTableRow3ColumnsB;
+                
+                CGRect frame = rowView.frame;
+                frame.origin.y = yPos;
+                rowView.frame = frame;
+                rowView._column1.text = row._column1;
+                rowView._column2.text = row._column2;
+                rowView._column3.text = row._column3;
+                
+                if(row._isHeader) {
+                    CGRect frame = rowView._column1.frame;
+                    frame.size.height = 0;
+                    frame.size.width = 0;
+                    frame.origin.x = 0;
+                    frame.origin.y = 0;
+                    rowView._column1.frame = frame;
+                    
+                    frame = rowView._column2.frame;
+                    frame.size.height = rowView.frame.size.height;
+                    frame.size.width = (rowView.frame.size.width * (0.90) - 2);
+                    frame.origin.y = 0;
+                    frame.origin.x = rowView.frame.size.width * 0.05;
+                    rowView._column2.frame = frame;
+                    rowView._column2.backgroundColor = Utils.getColorLexmarkViolet;
+                    rowView._column2.textColor = Utils.getColorLexmarkWhite;
+                    
+                    frame = rowView._column3.frame;
+                    frame.size.height = 0;
+                    frame.size.width = 0;
+                    frame.origin.x = 0;
+                    frame.origin.y = 0;
+                    rowView._column3.frame = frame;
+                }
+                
+                [Utils resizeLabelHeight:rowView._column1];
+                [Utils resizeLabelHeight:rowView._column2];
+                [Utils resizeLabelHeight:rowView._column3];
+                [Utils resizeRowHeight:rowView];
+                
+                [scrollView addSubview:rowView];
+                
+                yPos = yPos + rowView.frame.size.height - 1;
+            }
+            
+            yPos = yPos + 10;
         }
     }
     

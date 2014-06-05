@@ -11,16 +11,18 @@
 
 @interface Product : NSObject
 
-@property (nonatomic, copy) NSString *name;
-@property (nonatomic, copy) NSString *desc;
-@property (nonatomic, copy) NSString *image;
-@property (nonatomic, copy) NSString *descDetails;
-@property (nonatomic, copy) NSString *productSpecs;
-@property (nonatomic, copy) NSString *productMatrix;
-@property (nonatomic, copy) NSString *taaInfo;
-@property (nonatomic, copy) NSString *sendProductSpecs;
-@property (nonatomic, copy) NSString *navTitle;
-@property (nonatomic, copy) NSString *headerTitle;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *desc;
+@property (nonatomic, strong) NSString *image;
+@property (nonatomic, strong) NSString *descDetails;
+@property (nonatomic, strong) NSString *productSpecs;
+@property (nonatomic, strong) NSString *productMatrix;
+@property (nonatomic, strong) NSString *taaInfo;
+@property (nonatomic, strong) NSString *sendProductSpecs;
+@property (nonatomic, strong) NSString *navTitle;
+@property (nonatomic, strong) NSString *headerTitle;
+@property (nonatomic, strong) NSString *brochureLink;
+@property (nonatomic, strong) NSString *shortName;
 @property (nonatomic) enum ProductType productType;
 @property (nonatomic) Boolean hasMachineOption;
 

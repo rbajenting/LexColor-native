@@ -10,7 +10,8 @@
 
 @interface TaaInformationViewController : UIViewController
 
-@property (nonatomic, strong) NSMutableArray *_taaInformationItems;
-@property (nonatomic, copy) NSString *_headerTitle;
+@property (nonatomic, strong) NSMutableArray *_taaOrderingMatrixItems;
+@property (nonatomic, strong) NSMutableArray *_taaSuppliesMatrixItems;
+@property (nonatomic, strong) NSString *_headerTitle;
 
 @end

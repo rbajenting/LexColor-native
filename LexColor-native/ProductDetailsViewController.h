@@ -11,6 +11,6 @@
 
 @interface ProductDetailsViewController : UIViewController
 
-@property (nonatomic, weak) Product *_product;
+@property (nonatomic, strong) Product *_product;
 
 @end

@@ -20,6 +20,7 @@
 + (void) resizeLabelHeight:(UILabel *) resizableLable;
 + (void) resizeRowHeight: (CustomRow *) row;
 + (CustomRow *) getFormattedTableRow3Columns;
++ (CustomRow *) getFormattedTableRow3ColumnsB;
 + (CustomRow *) getFormattedTableRow7Columns;
 
 @end

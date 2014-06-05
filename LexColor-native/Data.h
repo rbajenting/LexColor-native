@@ -11,9 +11,9 @@
 
 @interface Data : NSObject
 
-@property (nonatomic, copy) NSString *_key;
-@property (nonatomic, copy) NSString *_stringValue;
+@property (nonatomic, strong) NSString *_key;
+@property (nonatomic, strong) NSString *_stringValue;
 @property (nonatomic) enum InfoType _type;
-@property (nonatomic, copy) NSMutableArray *_rowValue;
+@property (nonatomic, strong) NSMutableArray *_rowValue;
 
 @end

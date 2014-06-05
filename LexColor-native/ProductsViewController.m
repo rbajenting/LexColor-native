@@ -105,7 +105,7 @@
 {
     ProductCell *cell = (ProductCell *)[tableView dequeueReusableCellWithIdentifier:@"ProductCell"];
     
-    Product *product;
+    Product *product = [[Product alloc] init];
     
     switch (indexPath.section) {
         case 0: {
@@ -136,6 +136,8 @@
             product = (self.series95x)[indexPath.row];
             break;
         }
+        default:
+            break;
     }
     
     cell.nameLabel.font = [UIFont fontWithName:Utils.getPrimaryFontStyle size:16];
@@ -201,7 +203,7 @@
 {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 25)];
     UILabel *label = Utils.getFormattedLabel;
-    NSString *title;
+    NSString *title = @"";
     
     switch (section) {
         case 0: {

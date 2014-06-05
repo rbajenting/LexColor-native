@@ -10,13 +10,13 @@
 
 @interface RowContainer : NSObject
 
-@property (nonatomic, copy) NSString *_column1;
-@property (nonatomic, copy) NSString *_column2;
-@property (nonatomic, copy) NSString *_column3;
-@property (nonatomic, copy) NSString *_column4;
-@property (nonatomic, copy) NSString *_column5;
-@property (nonatomic, copy) NSString *_column6;
-@property (nonatomic, copy) NSString *_column7;
+@property (nonatomic, strong) NSString *_column1;
+@property (nonatomic, strong) NSString *_column2;
+@property (nonatomic, strong) NSString *_column3;
+@property (nonatomic, strong) NSString *_column4;
+@property (nonatomic, strong) NSString *_column5;
+@property (nonatomic, strong) NSString *_column6;
+@property (nonatomic, strong) NSString *_column7;
 
 @property (nonatomic) Boolean _isHeader;
 
