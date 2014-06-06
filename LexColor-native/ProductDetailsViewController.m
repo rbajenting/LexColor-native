@@ -8,6 +8,7 @@
 
 #import "ProductDetailsViewController.h"
 #import "SuppliesMatrixViewController.h"
+#import "ProductMatrixViewController.h"
 #import "MachineOptionsViewController.h"
 #import "TaaInformationViewController.h"
 #import "EmailViewController.h"
@@ -125,14 +126,27 @@
     
     yPos = yPos + productSpecsButton.frame.size.height + 10;
     
-    // product matrix
-    UIButton *productMatrixButton = Utils.getFormattedButton;
-    productMatrixButton.center = CGPointMake(self.view.center.x, yPos);
-    [scrollView addSubview:productMatrixButton];
-    [productMatrixButton setTitle:@"Supplies Matrix" forState:UIControlStateNormal];
-    [productMatrixButton addTarget:self action:@selector(pushSuppliesMatrixViewController) forControlEvents:UIControlEventTouchUpInside];
+    if (_product.hasSuppliesMatrix) {
+        // supplies matrix
+        UIButton *suppliesMatrixButton = Utils.getFormattedButton;
+        suppliesMatrixButton.center = CGPointMake(self.view.center.x, yPos);
+        [scrollView addSubview:suppliesMatrixButton];
+        [suppliesMatrixButton setTitle:@"Supplies Matrix" forState:UIControlStateNormal];
+        [suppliesMatrixButton addTarget:self action:@selector(pushSuppliesMatrixViewController) forControlEvents:UIControlEventTouchUpInside];
+        
+        yPos = yPos + suppliesMatrixButton.frame.size.height + 10;
+    }
     
-    yPos = yPos + productMatrixButton.frame.size.height + 10;
+    if (_product.hasProductMatrix) {
+        // product matrix
+        UIButton *productMatrixButton = Utils.getFormattedButton;
+        productMatrixButton.center = CGPointMake(self.view.center.x, yPos);
+        [scrollView addSubview:productMatrixButton];
+        [productMatrixButton setTitle:@"Product Matrix" forState:UIControlStateNormal];
+        [productMatrixButton addTarget:self action:@selector(pushProductMatrixViewController) forControlEvents:UIControlEventTouchUpInside];
+        
+        yPos = yPos + productMatrixButton.frame.size.height + 10;
+    }
     
     if (_product.hasMachineOption) {
         // machine option
@@ -181,6 +195,14 @@
     suppliesMatrixViewController._headerTitle = _product.headerTitle;
     suppliesMatrixViewController._suppliesMatrixItems = [DataFactory getSuppliesMatrixItems:_product.productType];
     [self.navigationController pushViewController:suppliesMatrixViewController animated:YES];
+}
+
+- (IBAction)pushProductMatrixViewController
+{
+    ProductMatrixViewController *productMatrixViewController = [[ProductMatrixViewController alloc] init];
+    productMatrixViewController._headerTitle = _product.headerTitle;
+    productMatrixViewController._productMatrixItems = [DataFactory getProductMatrixItems:_product.productType];
+    [self.navigationController pushViewController:productMatrixViewController animated:YES];
 }
 
 - (IBAction)pushMachineOptionsViewController

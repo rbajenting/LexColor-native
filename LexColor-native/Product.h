@@ -24,6 +24,9 @@
 @property (nonatomic, strong) NSString *brochureLink;
 @property (nonatomic, strong) NSString *shortName;
 @property (nonatomic) enum ProductType productType;
+
+@property (nonatomic) Boolean hasSuppliesMatrix;
+@property (nonatomic) Boolean hasProductMatrix;
 @property (nonatomic) Boolean hasMachineOption;
 
 @end

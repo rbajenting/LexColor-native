@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45FD91F19407DF100F0CF49 /* Video.png in Resources */ = {isa = PBXBuildFile; fileRef = F45FD91E19407DF100F0CF49 /* Video.png */; };
+		F45FD92119407E0700F0CF49 /* Links.png in Resources */ = {isa = PBXBuildFile; fileRef = F45FD92019407E0700F0CF49 /* Links.png */; };
+		F45FD9241940914500F0CF49 /* SupportDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FD9231940914500F0CF49 /* SupportDetailsTableViewCell.m */; };
+		F45FD9271940918A00F0CF49 /* SupportDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FD9261940918A00F0CF49 /* SupportDetailsTableViewController.m */; };
+		F45FD92A1940A68300F0CF49 /* SupportItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FD9291940A68300F0CF49 /* SupportItem.m */; };
+		F45FD92D194155BF00F0CF49 /* SupportLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FD92C194155BF00F0CF49 /* SupportLinkViewController.m */; };
+		F45FD93519419AF200F0CF49 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FD93219419AF200F0CF49 /* NewsViewController.m */; };
+		F45FD93619419AF200F0CF49 /* SuppliesMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FD93419419AF200F0CF49 /* SuppliesMatrixViewController.m */; };
+		F45FD9381941B91500F0CF49 /* C792pic.png in Resources */ = {isa = PBXBuildFile; fileRef = F45FD9371941B91500F0CF49 /* C792pic.png */; };
+		F45FD93B1941C09C00F0CF49 /* ProductMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45FD93A1941C09C00F0CF49 /* ProductMatrixViewController.m */; };
 		F47666A7192DD74E0029FA4E /* ProductDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666A6192DD74E0029FA4E /* ProductDetails.m */; };
 		F47666AC192DDBCA0029FA4E /* X792dePIC.png in Resources */ = {isa = PBXBuildFile; fileRef = F47666AB192DDBCA0029FA4E /* X792dePIC.png */; };
 		F47666AF192DE7EF0029FA4E /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666AE192DE7EF0029FA4E /* ProductDetailsViewController.m */; };
 		F47666B2192DF13A0029FA4E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666B1192DF13A0029FA4E /* Utils.m */; };
-		F47666B5192DFD180029FA4E /* Label1.m in Sources */ = {isa = PBXBuildFile; fileRef = F47666B4192DFD180029FA4E /* Label1.m */; };
 		F480489B193FF93F0029EACE /* CompetitorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F480489A193FF93F0029EACE /* CompetitorsTableViewController.m */; };
 		F480489E193FF9820029EACE /* CompetitorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F480489D193FF9820029EACE /* CompetitorTableViewCell.m */; };
 		F48048A019400BAB0029EACE /* HP.png in Resources */ = {isa = PBXBuildFile; fileRef = F480489F19400BAB0029EACE /* HP.png */; };
@@ -26,11 +35,12 @@
 		F48048B419401ABA0029EACE /* OKI.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048B319401ABA0029EACE /* OKI.png */; };
 		F48048BC194051EE0029EACE /* CompetitorDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48048BB194051EE0029EACE /* CompetitorDetailsViewController.m */; };
 		F48048BE194061B80029EACE /* hpcm4540.png in Resources */ = {isa = PBXBuildFile; fileRef = F48048BD194061B80029EACE /* hpcm4540.png */; };
+		F48048C11940753B0029EACE /* SupportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48048C01940753B0029EACE /* SupportTableViewController.m */; };
+		F48048C4194075610029EACE /* SupportTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F48048C3194075610029EACE /* SupportTableViewCell.m */; };
 		F4992B7019343C0200EA4B44 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B6F19343C0200EA4B44 /* Constants.m */; };
 		F4992B7319343D4E00EA4B44 /* DataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7219343D4E00EA4B44 /* DataFactory.m */; };
 		F4992B7619345AA400EA4B44 /* RowContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7519345AA400EA4B44 /* RowContainer.m */; };
 		F4992B7C1934852B00EA4B44 /* CustomRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B7B1934852B00EA4B44 /* CustomRow.m */; };
-		F4992B8219376AB200EA4B44 /* SuppliesMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B8119376AB100EA4B44 /* SuppliesMatrixViewController.m */; };
 		F4992B8519377CA600EA4B44 /* MachineOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4992B8419377CA600EA4B44 /* MachineOptionsViewController.m */; };
 		F4A0F195192C4A3200743CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A0F194192C4A3200743CF3 /* Foundation.framework */; };
 		F4A0F197192C4A3200743CF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A0F196192C4A3200743CF3 /* CoreGraphics.framework */; };
@@ -52,7 +62,6 @@
 		F4A0F1D3192C802700743CF3 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D2192C802700743CF3 /* ProductsViewController.m */; };
 		F4A0F1D9192C814A00743CF3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1D8192C814A00743CF3 /* Product.m */; };
 		F4A0F1DC192CA00600743CF3 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1DB192CA00600743CF3 /* ProductCell.m */; };
-		F4A0F1E2192CBC8A00743CF3 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */; };
 		F4D6BC54193323E5006F73B3 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BC53193323E5006F73B3 /* Data.m */; };
 		F4D91D7B192F06FE00DDE597 /* ProductSpecsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D91D7A192F06FE00DDE597 /* ProductSpecsViewController.m */; };
 		F4D91D7D192F3D0100DDE597 /* headerbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D91D7C192F3D0100DDE597 /* headerbackground.png */; };
@@ -72,6 +81,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F45FD91E19407DF100F0CF49 /* Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video.png; sourceTree = "<group>"; };
+		F45FD92019407E0700F0CF49 /* Links.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Links.png; sourceTree = "<group>"; };
+		F45FD9221940914500F0CF49 /* SupportDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportDetailsTableViewCell.h; sourceTree = "<group>"; };
+		F45FD9231940914500F0CF49 /* SupportDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportDetailsTableViewCell.m; sourceTree = "<group>"; };
+		F45FD9251940918A00F0CF49 /* SupportDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportDetailsTableViewController.h; sourceTree = "<group>"; };
+		F45FD9261940918A00F0CF49 /* SupportDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportDetailsTableViewController.m; sourceTree = "<group>"; };
+		F45FD9281940A68300F0CF49 /* SupportItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportItem.h; sourceTree = "<group>"; };
+		F45FD9291940A68300F0CF49 /* SupportItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportItem.m; sourceTree = "<group>"; };
+		F45FD92B194155BF00F0CF49 /* SupportLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportLinkViewController.h; sourceTree = "<group>"; };
+		F45FD92C194155BF00F0CF49 /* SupportLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportLinkViewController.m; sourceTree = "<group>"; };
+		F45FD93119419AF200F0CF49 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		F45FD93219419AF200F0CF49 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		F45FD93319419AF200F0CF49 /* SuppliesMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuppliesMatrixViewController.h; sourceTree = "<group>"; };
+		F45FD93419419AF200F0CF49 /* SuppliesMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuppliesMatrixViewController.m; sourceTree = "<group>"; };
+		F45FD9371941B91500F0CF49 /* C792pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C792pic.png; sourceTree = "<group>"; };
+		F45FD9391941C09C00F0CF49 /* ProductMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductMatrixViewController.h; sourceTree = "<group>"; };
+		F45FD93A1941C09C00F0CF49 /* ProductMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductMatrixViewController.m; sourceTree = "<group>"; };
 		F47666A5192DD74E0029FA4E /* ProductDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetails.h; sourceTree = "<group>"; };
 		F47666A6192DD74E0029FA4E /* ProductDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetails.m; sourceTree = "<group>"; };
 		F47666AB192DDBCA0029FA4E /* X792dePIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X792dePIC.png; sourceTree = "<group>"; };
@@ -79,8 +105,6 @@
 		F47666AE192DE7EF0029FA4E /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
 		F47666B0192DF13A0029FA4E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		F47666B1192DF13A0029FA4E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		F47666B3192DFD180029FA4E /* Label1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label1.h; sourceTree = "<group>"; };
-		F47666B4192DFD180029FA4E /* Label1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label1.m; sourceTree = "<group>"; };
 		F4804899193FF93F0029EACE /* CompetitorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorsTableViewController.h; sourceTree = "<group>"; };
 		F480489A193FF93F0029EACE /* CompetitorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorsTableViewController.m; sourceTree = "<group>"; };
 		F480489C193FF9820029EACE /* CompetitorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorTableViewCell.h; sourceTree = "<group>"; };
@@ -98,6 +122,10 @@
 		F48048BA194051EE0029EACE /* CompetitorDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorDetailsViewController.h; sourceTree = "<group>"; };
 		F48048BB194051EE0029EACE /* CompetitorDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorDetailsViewController.m; sourceTree = "<group>"; };
 		F48048BD194061B80029EACE /* hpcm4540.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hpcm4540.png; sourceTree = "<group>"; };
+		F48048BF1940753B0029EACE /* SupportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportTableViewController.h; sourceTree = "<group>"; };
+		F48048C01940753B0029EACE /* SupportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportTableViewController.m; sourceTree = "<group>"; };
+		F48048C2194075610029EACE /* SupportTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportTableViewCell.h; sourceTree = "<group>"; };
+		F48048C3194075610029EACE /* SupportTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportTableViewCell.m; sourceTree = "<group>"; };
 		F4992B6E19343C0200EA4B44 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		F4992B6F19343C0200EA4B44 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		F4992B7119343D4E00EA4B44 /* DataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFactory.h; sourceTree = "<group>"; };
@@ -106,8 +134,6 @@
 		F4992B7519345AA400EA4B44 /* RowContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowContainer.m; sourceTree = "<group>"; };
 		F4992B7A1934852B00EA4B44 /* CustomRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRow.h; sourceTree = "<group>"; };
 		F4992B7B1934852B00EA4B44 /* CustomRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRow.m; sourceTree = "<group>"; };
-		F4992B8019376AB100EA4B44 /* SuppliesMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuppliesMatrixViewController.h; path = ../SuppliesMatrixViewController.h; sourceTree = "<group>"; };
-		F4992B8119376AB100EA4B44 /* SuppliesMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuppliesMatrixViewController.m; path = ../SuppliesMatrixViewController.m; sourceTree = "<group>"; };
 		F4992B8319377CA600EA4B44 /* MachineOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineOptionsViewController.h; sourceTree = "<group>"; };
 		F4992B8419377CA600EA4B44 /* MachineOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineOptionsViewController.m; sourceTree = "<group>"; };
 		F4A0F191192C4A3200743CF3 /* LexColor-native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LexColor-native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,8 +164,6 @@
 		F4A0F1D8192C814A00743CF3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		F4A0F1DA192CA00600743CF3 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
 		F4A0F1DB192CA00600743CF3 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
-		F4A0F1E0192CBC8A00743CF3 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = ../NewsViewController.h; sourceTree = "<group>"; };
-		F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
 		F4D6BC52193323E5006F73B3 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		F4D6BC53193323E5006F73B3 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 		F4D91D79192F06FE00DDE597 /* ProductSpecsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductSpecsViewController.h; sourceTree = "<group>"; };
@@ -222,6 +246,7 @@
 		F48048B9194025660029EACE /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				F45FD9371941B91500F0CF49 /* C792pic.png */,
 				F47666AB192DDBCA0029FA4E /* X792dePIC.png */,
 			);
 			name = Sample;
@@ -262,15 +287,27 @@
 		F4A0F19A192C4A3200743CF3 /* LexColor-native */ = {
 			isa = PBXGroup;
 			children = (
+				F45FD93119419AF200F0CF49 /* NewsViewController.h */,
+				F45FD93219419AF200F0CF49 /* NewsViewController.m */,
+				F45FD93319419AF200F0CF49 /* SuppliesMatrixViewController.h */,
+				F45FD93419419AF200F0CF49 /* SuppliesMatrixViewController.m */,
 				F4A0F1A3192C4A3200743CF3 /* AppDelegate.h */,
 				F4A0F1A4192C4A3200743CF3 /* AppDelegate.m */,
 				F4E56499193C736E00C37D8B /* EmailViewController.h */,
 				F4E5649A193C736E00C37D8B /* EmailViewController.m */,
-				F4992B8019376AB100EA4B44 /* SuppliesMatrixViewController.h */,
-				F4992B8119376AB100EA4B44 /* SuppliesMatrixViewController.m */,
-				F4A0F1E0192CBC8A00743CF3 /* NewsViewController.h */,
-				F4A0F1E1192CBC8A00743CF3 /* NewsViewController.m */,
 				F4A0F1A6192C4A3200743CF3 /* Main_iPhone.storyboard */,
+				F45FD92B194155BF00F0CF49 /* SupportLinkViewController.h */,
+				F45FD92C194155BF00F0CF49 /* SupportLinkViewController.m */,
+				F45FD9221940914500F0CF49 /* SupportDetailsTableViewCell.h */,
+				F45FD9231940914500F0CF49 /* SupportDetailsTableViewCell.m */,
+				F45FD9251940918A00F0CF49 /* SupportDetailsTableViewController.h */,
+				F45FD9261940918A00F0CF49 /* SupportDetailsTableViewController.m */,
+				F45FD9281940A68300F0CF49 /* SupportItem.h */,
+				F45FD9291940A68300F0CF49 /* SupportItem.m */,
+				F48048C2194075610029EACE /* SupportTableViewCell.h */,
+				F48048C3194075610029EACE /* SupportTableViewCell.m */,
+				F48048BF1940753B0029EACE /* SupportTableViewController.h */,
+				F48048C01940753B0029EACE /* SupportTableViewController.m */,
 				F48048BA194051EE0029EACE /* CompetitorDetailsViewController.h */,
 				F48048BB194051EE0029EACE /* CompetitorDetailsViewController.m */,
 				F4804899193FF93F0029EACE /* CompetitorsTableViewController.h */,
@@ -287,10 +324,10 @@
 				F4E5648A19382B4F00C37D8B /* TaaInformationViewController.m */,
 				F47666AD192DE7EF0029FA4E /* ProductDetailsViewController.h */,
 				F47666AE192DE7EF0029FA4E /* ProductDetailsViewController.m */,
+				F45FD9391941C09C00F0CF49 /* ProductMatrixViewController.h */,
+				F45FD93A1941C09C00F0CF49 /* ProductMatrixViewController.m */,
 				F4992B8319377CA600EA4B44 /* MachineOptionsViewController.h */,
 				F4992B8419377CA600EA4B44 /* MachineOptionsViewController.m */,
-				F47666B3192DFD180029FA4E /* Label1.h */,
-				F47666B4192DFD180029FA4E /* Label1.m */,
 				F4A0F1DA192CA00600743CF3 /* ProductCell.h */,
 				F4A0F1DB192CA00600743CF3 /* ProductCell.m */,
 				F4A0F1D1192C802700743CF3 /* ProductsViewController.h */,
@@ -348,6 +385,8 @@
 		F4A0F1CC192C7DBA00743CF3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F45FD92019407E0700F0CF49 /* Links.png */,
+				F45FD91E19407DF100F0CF49 /* Video.png */,
 				F48048B7194025390029EACE /* Products */,
 				F48048B519401AC70029EACE /* Competitors */,
 				F4D91D7C192F3D0100DDE597 /* headerbackground.png */,
@@ -442,12 +481,15 @@
 				F48048B219401AA90029EACE /* samsung.png in Resources */,
 				F4A0F1CF192C7DBA00743CF3 /* Tab2.png in Resources */,
 				F48048AC19401A690029EACE /* Kyocera.png in Resources */,
+				F45FD92119407E0700F0CF49 /* Links.png in Resources */,
 				F4A0F1D0192C7DBA00743CF3 /* Tab3.png in Resources */,
 				F48048B019401A8C0029EACE /* Bro.png in Resources */,
 				F48048A019400BAB0029EACE /* HP.png in Resources */,
 				F48048AA19401A550029EACE /* KM.png in Resources */,
 				F4A0F1A8192C4A3200743CF3 /* Main_iPhone.storyboard in Resources */,
+				F45FD9381941B91500F0CF49 /* C792pic.png in Resources */,
 				F48048A819401A3B0029EACE /* Xerox.png in Resources */,
+				F45FD91F19407DF100F0CF49 /* Video.png in Resources */,
 				F48048AE19401A7A0029EACE /* Canon.png in Resources */,
 				F47666AC192DDBCA0029FA4E /* X792dePIC.png in Resources */,
 				F48048A619401A160029EACE /* ricoh.png in Resources */,
@@ -473,18 +515,24 @@
 				F4E5648B19382B4F00C37D8B /* TaaInformationViewController.m in Sources */,
 				F47666B2192DF13A0029FA4E /* Utils.m in Sources */,
 				F480489B193FF93F0029EACE /* CompetitorsTableViewController.m in Sources */,
+				F45FD9241940914500F0CF49 /* SupportDetailsTableViewCell.m in Sources */,
 				F4A0F1AE192C4A3200743CF3 /* ViewController.m in Sources */,
+				F45FD92A1940A68300F0CF49 /* SupportItem.m in Sources */,
 				F4A0F1A5192C4A3200743CF3 /* AppDelegate.m in Sources */,
-				F47666B5192DFD180029FA4E /* Label1.m in Sources */,
+				F48048C4194075610029EACE /* SupportTableViewCell.m in Sources */,
+				F48048C11940753B0029EACE /* SupportTableViewController.m in Sources */,
 				F4992B7019343C0200EA4B44 /* Constants.m in Sources */,
 				F4D6BC54193323E5006F73B3 /* Data.m in Sources */,
 				F4992B7C1934852B00EA4B44 /* CustomRow.m in Sources */,
-				F4A0F1E2192CBC8A00743CF3 /* NewsViewController.m in Sources */,
 				F4992B7619345AA400EA4B44 /* RowContainer.m in Sources */,
 				F47666A7192DD74E0029FA4E /* ProductDetails.m in Sources */,
 				F4A0F1D9192C814A00743CF3 /* Product.m in Sources */,
+				F45FD93B1941C09C00F0CF49 /* ProductMatrixViewController.m in Sources */,
+				F45FD9271940918A00F0CF49 /* SupportDetailsTableViewController.m in Sources */,
 				F4992B7319343D4E00EA4B44 /* DataFactory.m in Sources */,
 				F4A0F1D3192C802700743CF3 /* ProductsViewController.m in Sources */,
+				F45FD93619419AF200F0CF49 /* SuppliesMatrixViewController.m in Sources */,
+				F45FD92D194155BF00F0CF49 /* SupportLinkViewController.m in Sources */,
 				F480489E193FF9820029EACE /* CompetitorTableViewCell.m in Sources */,
 				F4E5649B193C736E00C37D8B /* EmailViewController.m in Sources */,
 				F47666AF192DE7EF0029FA4E /* ProductDetailsViewController.m in Sources */,
@@ -493,7 +541,7 @@
 				F4992B8519377CA600EA4B44 /* MachineOptionsViewController.m in Sources */,
 				F48048BC194051EE0029EACE /* CompetitorDetailsViewController.m in Sources */,
 				F4D91D7B192F06FE00DDE597 /* ProductSpecsViewController.m in Sources */,
-				F4992B8219376AB200EA4B44 /* SuppliesMatrixViewController.m in Sources */,
+				F45FD93519419AF200F0CF49 /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

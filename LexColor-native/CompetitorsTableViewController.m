@@ -478,6 +478,9 @@
                 destViewController._product = [_c950competitors objectAtIndex:indexPath.row];;
                 break;
             }
+            default: {
+                break;
+            }
         }
     }
 }

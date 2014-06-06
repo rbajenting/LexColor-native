@@ -10,6 +10,7 @@
 #import "Product.h"
 #import "ProductsViewController.h"
 #import "CompetitorsTableViewController.h"
+#import "SupportTableViewController.h"
 
 @implementation AppDelegate
 {
@@ -66,6 +67,8 @@
     product.navTitle = @"X792 Products";
     product.headerTitle = @"Lexmark X792 Products";
     product.productType = enum_producttype_X792;
+    product.hasSuppliesMatrix = YES;
+    product.hasProductMatrix = NO;
     product.hasMachineOption = YES;
     product.shortName = @"X792";
     product.brochureLink = @"http://media.lexmark.com/www/doc/en_US/Lexmark-X792.pdf";
@@ -75,8 +78,16 @@
     product = [[Product alloc] init];
     product.name = @"C792 Range of Products";
     product.desc = @"Touch Screen Color Printer";
-    
+    product.image = @"C792pic.png";
+    product.descDetails = @"Easy-to-use touchscreens and available high input capacity makes getting work done even easier. The crisp, vivid color printing from the Lexmark C790 Series keeps your medium-size office group ready for business.";
+    product.navTitle = @"C792 Products";
+    product.headerTitle = @"Lexmark C792 Products";
     product.productType = enum_producttype_C792;
+    product.hasSuppliesMatrix = NO;
+    product.hasProductMatrix = YES;
+    product.hasMachineOption = NO;
+    product.shortName = @"C792";
+    product.brochureLink = @"http://media.lexmark.com/www/doc/en_US/Lexmark-C792.pdf";
     [_series79x addObject:product];
     [product release];
     
@@ -210,7 +221,7 @@
     product.name = @"HP Color LaserJet Enterprise CM4540 MFP";
     product.desc = @"Multifunction Color Printer";
     product.image = @"HP.png";
-    product.productType = enum_competitortype_X792_HP_CM4540;
+    product.productType = enum_competitortype_HP_CM4540;
     [_x792Competitors addObject:product];
     [product release];
     
@@ -555,7 +566,7 @@
     [product release];
     
     product = [[Product alloc] init];
-    product.name = @"KRicoh Aficio MP C3002";
+    product.name = @"Ricoh Aficio MP C3002";
     product.desc = @"Multifunction Color Printer";
     product.image = @"ricoh.png";
     [_x925Competitors addObject:product];
@@ -703,6 +714,30 @@
     competitorsTableViewController.x950competitors = _x950Competitors;
     competitorsTableViewController.x954competitors = _x954Competitors;
     competitorsTableViewController.c950competitors = _c950Competitors;
+    
+    NSArray *nameLabels = [[NSArray alloc]
+                       initWithObjects:@"Product Sales Videos",
+                       @"Instruction Videos",
+                       @"Resource Links",
+                       nil];
+    
+    NSArray *descLabels = [[NSArray alloc]
+                       initWithObjects:@"Features & Functions of Devices Explained",
+                       @"Tools To Help Sell Products & Solutions",
+                       @"Links To Commonly Used Web Data",
+                       nil];
+    
+    NSArray *imageViews = [[NSArray alloc]
+                       initWithObjects:@"Video.png",
+                       @"Video.png",
+                       @"Links.png",
+                       nil];
+    
+    navigationController = [tabBarController viewControllers][2];
+    SupportTableViewController *supportTableViewController = [navigationController viewControllers][0];
+    supportTableViewController.nameLabels = nameLabels;
+    supportTableViewController.descLabels = descLabels;
+    supportTableViewController.imageViews = imageViews;
     
     return YES;
 }

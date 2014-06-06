@@ -3,4 +3,5 @@ dependencies: \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/Data.h \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/Constants.h \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/DataFactory.h \
-  /Users/fcantay/Desktop/LexColor-native/LexColor-native/RowContainer.h
+  /Users/fcantay/Desktop/LexColor-native/LexColor-native/RowContainer.h \
+  /Users/fcantay/Desktop/LexColor-native/LexColor-native/SupportItem.h

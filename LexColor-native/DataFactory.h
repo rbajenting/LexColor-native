@@ -13,9 +13,11 @@
 
 + (NSMutableArray *) getProductSpecItems:(enum ProductType) productType;
 + (NSMutableArray *) getSuppliesMatrixItems:(enum ProductType) productType;
++ (NSMutableArray *) getProductMatrixItems:(enum ProductType) productType;
 + (NSMutableArray *) getMachineOptionsItems:(enum ProductType) productType;
 + (NSMutableArray *) getTaaOrderingMatrixItems:(enum ProductType) productType;
 + (NSMutableArray *) getTaaSuppliesMatrixItems:(enum ProductType) productType;
 + (NSMutableArray *) getCompetitorSpecItems:(enum ProductType) productType;
++ (NSMutableArray *) getSupportItems:(NSIndexPath *) indexPath;
 
 @end

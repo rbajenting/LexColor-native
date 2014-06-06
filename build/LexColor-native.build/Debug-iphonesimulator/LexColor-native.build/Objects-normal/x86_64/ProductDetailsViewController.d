@@ -3,7 +3,8 @@ dependencies: \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/ProductDetailsViewController.h \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/Product.h \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/Constants.h \
-  /Users/fcantay/Desktop/LexColor-native/LexColor-native/../SuppliesMatrixViewController.h \
+  /Users/fcantay/Desktop/LexColor-native/LexColor-native/SuppliesMatrixViewController.h \
+  /Users/fcantay/Desktop/LexColor-native/LexColor-native/ProductMatrixViewController.h \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/MachineOptionsViewController.h \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/TaaInformationViewController.h \
   /Users/fcantay/Desktop/LexColor-native/LexColor-native/EmailViewController.h \

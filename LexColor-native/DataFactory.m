@@ -9,6 +9,7 @@
 #import "Data.h"
 #import "DataFactory.h"
 #import "RowContainer.h"
+#import "SupportItem.h"
 
 @implementation DataFactory
 
@@ -216,8 +217,8 @@
             NSMutableArray *tableSet = [NSMutableArray array];
             
             RowContainer *row = [RowContainer alloc];
-            row._column1 = @"CPP - Mono (5% Cov)";
-            row._column2 = @"CPP - CMYK (20% tot cov)";
+            row._column1 = @"CPP - Mono\n(5% Cov)";
+            row._column2 = @"CPP - CMYK\n(20% tot cov)";
             row._isHeader = YES;
             [tableSet addObject:row];
             
@@ -232,6 +233,108 @@
             item._rowValue = tableSet;
             
             [productSpecsItems addObject:item];
+            break;
+        }
+        case enum_producttype_C792: {
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Print Speed (Letter, Black):";
+            item._stringValue= @"50 ppm";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Pages Per Minute:";
+            item._stringValue= @"50 color / 50 mono";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Duty Cycle:";
+            item._stringValue= @"150,000 Pages/Month";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Time To First Page:";
+            item._stringValue= @"Less Than 9sec Color\nLess Than 8sec Mono";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Processor Speed:";
+            item._stringValue= @"1.2 GHz PowerPC";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Memory (standard / maximum):";
+            item._stringValue= @"1 GB std. / 2GB max.";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Input Capacity (standard / maximum):";
+            item._stringValue= @"650 std. / 2650 max.";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Output Capacity (standard / maximum):";
+            item._stringValue= @"500 std. / 1000 max.";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Type Of Media Supported:";
+            item._stringValue= @"up to 225 g/m²";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Dimensions:";
+            item._stringValue= @"22\" w x 20\" d x 32.5\" h";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Warranty:";
+            item._stringValue= @"1yr Onsite Parts and Labor";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Extended Warranty:";
+            item._stringValue= @"1-4yr Onsite Parts and Labor";
+            [productSpecsItems addObject:item];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_text;
+            item._key = @" • Recommended Monthly Page Volume:";
+            item._stringValue= @"2,500 - 17,000";
+            [productSpecsItems addObject:item];
+            
+            NSMutableArray *tableSet = [NSMutableArray array];
+            
+            RowContainer *row = [RowContainer alloc];
+            row._column1 = @"CPP - Mono\n(5% Cov)";
+            row._column2 = @"CPP - CMYK\n(20% tot cov)";
+            row._isHeader = YES;
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"$0.03 std. 6000 pg. / $0.014 hc 20,000 pg.";
+            row._column2 = @"$0.1681 std. 6000 pg. / $0.0890 hc 20,000 pg.";
+            [tableSet addObject:row];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_table2columns;
+            item._key = @" • Cost Per Page:";
+            item._rowValue = tableSet;
+            
+            [productSpecsItems addObject:item];
+            
             break;
         }
     
@@ -360,6 +463,47 @@
     }
     
     return suppliesMatrixItems;
+}
+
++ (NSMutableArray *) getProductMatrixItems:(enum ProductType) productType
+{
+    NSMutableArray *productMatrixItems = [NSMutableArray array];
+    Data *item;
+    
+    switch (productType) {
+        case enum_producttype_C792: {
+            NSLog(@"C792 selected");
+            
+            NSMutableArray *tableSet = [NSMutableArray array];
+            
+            RowContainer *row = [RowContainer alloc];
+            row._column1 = @"";
+            row._column2 = @"Lexmark C792 Color Laser Printers";
+            row._column3 = @"";
+            row._isHeader = YES;
+            [tableSet addObject:row];
+            
+            row = [RowContainer alloc];
+            row._column1 = @"Part #";
+            row._column2 = @"Product";
+            row._column3 = @"Web";
+            [tableSet addObject:row];
+            
+            item = [Data alloc];
+            item._type = enum_infotype_table2columns;
+            item._key = @" • Product Matrix:";
+            item._rowValue = tableSet;
+            
+            [productMatrixItems addObject:item];
+            break;
+        }
+            
+        default: {
+            break;
+        }
+    }
+    
+    return productMatrixItems;
 }
 
 + (NSMutableArray *) getMachineOptionsItems:(enum ProductType) productType
@@ -1290,7 +1434,7 @@
     Data *item;
     
     switch (productType) {
-        case enum_competitortype_X792_HP_CM4540: {
+        case enum_competitortype_HP_CM4540: {
             NSLog(@"HP CM4540 selected");
             
             item = [Data alloc];
@@ -1660,6 +1804,226 @@
             
             break;
         }
+        case enum_competitortype_RC_MPC400: {
+            
+            break;
+        }
+        case enum_competitortype_SH_MXC402SC: {
+            
+            break;
+        }
+        case enum_competitortype_XR_8900X: {
+            
+            break;
+        }
+        case enum_competitortype_HP_CP4525N: {
+            
+            break;
+        }
+        case enum_competitortype_KY_FSC5400DN: {
+            
+            break;
+        }
+        case enum_competitortype_RC_SPC431DN: {
+            
+            break;
+        }
+        case enum_competitortype_XR_870DN: {
+            
+            break;
+        }
+        case enum_competitortype_HP_MFPM575DN: {
+            
+            break;
+        }
+        case enum_competitortype_KM_C25: {
+            
+            break;
+        }
+        case enum_competitortype_HP_MFPM575C: {
+            
+            break;
+        }
+        case enum_competitortype_KM_C35: {
+            
+            break;
+        }
+        case enum_competitortype_XR_8700S: {
+            
+            break;
+        }
+        case enum_competitortype_HP_M551N: {
+            
+            break;
+        }
+        case enum_competitortype_KY_FSC5250DN: {
+            
+            break;
+        }
+        case enum_competitortype_RC_SPC430DN: {
+            
+            break;
+        }
+        case enum_competitortype_XR_8570N: {
+            
+            break;
+        }
+        case enum_competitortype_XR_6010NN: {
+            
+            break;
+        }
+        case enum_competitortype_HP_CP4025N: {
+            
+            break;
+        }
+        case enum_competitortype_KY_FSC5300DN: {
+            
+            break;
+        }
+        case enum_competitortype_CN_MF9280CDN: {
+            
+            break;
+        }
+        case enum_competitortype_KM_C20X: {
+            
+            break;
+        }
+        case enum_competitortype_XR_6605N: {
+            
+            break;
+        }
+        case enum_competitortype_BR_HL4570CDW: {
+            
+            break;
+        }
+        case enum_competitortype_HP_M451NW: {
+            
+            break;
+        }
+        case enum_competitortype_RC_SPC320DN: {
+            
+            break;
+        }
+        case enum_competitortype_XR_6600N: {
+            
+            break;
+        }
+        case enum_competitortype_BR_MFC9970CDW: {
+            
+            break;
+        }
+        case enum_competitortype_HP_MFPM475: {
+            
+            break;
+        }
+        case enum_competitortype_XR_6505N: {
+            
+            break;
+        }
+        case enum_competitortype_BR_HL4150CDN: {
+            
+            break;
+        }
+        case enum_competitortype_XR_6500N: {
+            
+            break;
+        }
+        case enum_competitortype_BR_MFC9460CDN: {
+            
+            break;
+        }
+        case enum_competitortype_HP_M276NW: {
+            
+            break;
+        }
+        case enum_competitortype_SM_CLF4195FW: {
+            
+            break;
+        }
+        case enum_competitortype_XR_6015NI: {
+            
+            break;
+        }
+        case enum_competitortype_BR_HL3045CN: {
+            
+            break;
+        }
+        case enum_competitortype_BR_HL3065CW: {
+            
+            break;
+        }
+        case enum_competitortype_HP_M51NW: {
+            
+            break;
+        }
+        case enum_competitortype_SM_CLP415NW: {
+            
+            break;
+        }
+        case enum_competitortype_XR_6010N: {
+            
+            break;
+        }
+        case enum_competitortype_CN_C2030: {
+            
+            break;
+        }
+        case enum_competitortype_KM_C280: {
+            
+            break;
+        }
+        case enum_competitortype_RC_MPC3002: {
+            
+            break;
+        }
+        case enum_competitortype_XR_7120T: {
+            
+            break;
+        }
+        case enum_competitortype_KM_7450II: {
+            
+            break;
+        }
+        case enum_competitortype_OK_OKIC830DN: {
+            
+            break;
+        }
+        case enum_competitortype_XR_7100N: {
+            
+            break;
+        }
+        case enum_competitortype_CN_C5051: {
+            
+            break;
+        }
+        case enum_competitortype_KM_C554: {
+            
+            break;
+        }
+        case enum_competitortype_RC_MPC5502: {
+            
+            break;
+        }
+        case enum_competitortype_XR_7556: {
+            
+            break;
+        }
+        case enum_competitortype_HP_CP6015DN: {
+            
+            break;
+        }
+        case enum_competitortype_OK_OKIC9650DN: {
+            
+            break;
+        }
+        case enum_competitortype_RC_SPC821DN: {
+            
+            break;
+        }
+        case enum_competitortype_XR_7800DN: {
+            
+            break;
+        }
         
         default: {
             break;
@@ -1667,6 +2031,108 @@
     }
     
     return competitorSpecsItems;
+}
+
++ (NSMutableArray *) getSupportItems:(NSIndexPath *) indexPath
+{
+    NSMutableArray *supportItems = [NSMutableArray array];
+    SupportItem *item;
+    
+    switch (indexPath.row) {
+        case 0: {
+            NSLog(@"Product Sales Videos selected");
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_vid;
+            item._key = @"VIDEO 1: Western/Southern LI";
+            item._stringValue= @"Play Video 1";
+            item._link= @"http://www.brantnystrom.com/UNIQUE/SWLI.mp4";
+            [supportItems addObject:item];
+            [item release];
+            
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_vid;
+            item._key = @"VIDEO 2: Cincinnati Bell";
+            item._stringValue= @"Play Video 2";
+            item._link= @"http://www.brantnystrom.com/UNIQUE/cinbell.mp4";
+            [supportItems addObject:item];
+            [item release];
+            
+            break;
+        }
+        case 1: {
+            NSLog(@"Instruction Videos selected");
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_vid;
+            item._key = @"VIDEO 1: C792/X792 Overview";
+            item._stringValue= @"Play Video 1";
+            item._link= @"http://www.brantnystrom.com/UNIQUE/792vid.mp4";
+            [supportItems addObject:item];
+            [item release];
+            
+            break;
+        }
+        case 2: {
+            NSLog(@"Resource Links selected");
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_page;
+            item._key = @"Lexmark";
+            item._stringValue= @"Company Home Page";
+            item._link= @"http://www.lexmark.com";
+            [supportItems addObject:item];
+            [item release];
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_page;
+            item._key = @"HP";
+            item._stringValue= @"Company Home Page";
+            item._link= @"http://www.hp.com";
+            [supportItems addObject:item];
+            [item release];
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_page;
+            item._key = @"Canon";
+            item._stringValue= @"Company Home Page";
+            item._link= @"http://www.canon.com";
+            [supportItems addObject:item];
+            [item release];
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_page;
+            item._key = @"Xerox";
+            item._stringValue= @"Company Home Page";
+            item._link= @"http://www.xerox.com";
+            [supportItems addObject:item];
+            [item release];
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_page;
+            item._key = @"Konica-Minolta";
+            item._stringValue= @"Company Home Page";
+            item._link= @"http://kmbs.konicaminolta.us/wps/portal/web/home/products/printers";
+            [supportItems addObject:item];
+            [item release];
+            
+            item = [SupportItem alloc];
+            item._type = enum_supporttype_page;
+            item._key = @"Samsung";
+            item._stringValue= @"Company Home Page";
+            item._link= @"http://www.samsung.com/us/computer/printers";
+            [supportItems addObject:item];
+            [item release];
+            break;
+        }
+            
+        default: {
+            break;
+        }
+    }
+    
+    return supportItems;
 }
 
 @end
